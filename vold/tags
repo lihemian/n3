@@ -1,0 +1,1173 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANDROID_VOLD_BENCHMARK_H	./Benchmark.h	18;"	d
+ANDROID_VOLD_DISK_H	./Disk.h	18;"	d
+ANDROID_VOLD_EMULATED_VOLUME_H	./EmulatedVolume.h	18;"	d
+ANDROID_VOLD_EXFAT_H	./fs/Exfat.h	18;"	d
+ANDROID_VOLD_EXT4_H	./fs/Ext4.h	18;"	d
+ANDROID_VOLD_F2FS_H	./fs/F2fs.h	18;"	d
+ANDROID_VOLD_MOVE_TASK_H	./MoveTask.h	18;"	d
+ANDROID_VOLD_NTFS_H	./fs/Ntfs.h	18;"	d
+ANDROID_VOLD_PRIVATE_VOLUME_H	./PrivateVolume.h	18;"	d
+ANDROID_VOLD_PUBLIC_VOLUME_H	./PublicVolume.h	18;"	d
+ANDROID_VOLD_TRIM_TASK_H	./TrimTask.h	18;"	d
+ANDROID_VOLD_UTILS_H	./Utils.h	18;"	d
+ANDROID_VOLD_VFAT_H	./fs/Vfat.h	18;"	d
+ANDROID_VOLD_VOLUME_BASE_H	./VolumeBase.h	18;"	d
+ANDROID_VOLD_VOLUME_MANAGER_H	./VolumeManager.h	18;"	d
+ARRAY_SIZE	./VoldUtil.h	22;"	d
+ASEC	./VolumeManager.h	/^typedef enum { ASEC, OBB } container_type_t;$/;"	e	enum:__anon1
+ASECDIR	./VolumeManager.cpp	/^const char *VolumeManager::ASECDIR           = "\/mnt\/asec";$/;"	m	class:VolumeManager	file:
+ASECDIR	./VolumeManager.h	/^    static const char *ASECDIR;$/;"	m	class:VolumeManager
+ASEC_SB_C_CHAIN_NONE	./Asec.h	32;"	d
+ASEC_SB_C_CIPHER_AES	./Asec.h	29;"	d
+ASEC_SB_C_CIPHER_NONE	./Asec.h	27;"	d
+ASEC_SB_C_CIPHER_TWOFISH	./Asec.h	28;"	d
+ASEC_SB_C_MODE_NONE	./Asec.h	39;"	d
+ASEC_SB_C_OPTS_EXT4	./Asec.h	36;"	d
+ASEC_SB_C_OPTS_NONE	./Asec.h	35;"	d
+ASEC_SB_MAGIC	./Asec.h	21;"	d
+ASEC_SB_VER	./Asec.h	24;"	d
+ActionInitiated	./ResponseCode.h	/^    static const int ActionInitiated  = 100;$/;"	m	class:ResponseCode
+AsecCmd	./CommandListener.cpp	/^CommandListener::AsecCmd::AsecCmd() :$/;"	f	class:CommandListener::AsecCmd
+AsecCmd	./CommandListener.h	/^    class AsecCmd : public VoldCommand {$/;"	c	class:CommandListener
+AsecIdCollection	./VolumeManager.h	/^typedef android::List<ContainerData*> AsecIdCollection;$/;"	t
+AsecListResult	./ResponseCode.h	/^    static const int AsecListResult           = 111;$/;"	m	class:ResponseCode
+AsecPathResult	./ResponseCode.h	/^    static const int AsecPathResult           = 211;$/;"	m	class:ResponseCode
+BENCHMARK_ENABLED	./TrimTask.cpp	40;"	d	file:
+BICR_STATUS	./Bicr.h	/^    }BICR_STATUS;$/;"	t	class:Bicr	typeref:enum:Bicr::STATUS
+BLOCKS_AT_A_TIME	./cryptfs.c	2286;"	d	file:
+BLOCKS_AT_A_TIME	./cryptfs.c	2288;"	d	file:
+BenchmarkCreate	./BenchmarkGen.h	/^static status_t BenchmarkCreate() {$/;"	f	namespace:android::vold
+BenchmarkDestroy	./BenchmarkGen.h	/^static status_t BenchmarkDestroy() {$/;"	f	namespace:android::vold
+BenchmarkIdent	./BenchmarkGen.h	/^static std::string BenchmarkIdent() {$/;"	f	namespace:android::vold
+BenchmarkPrivate	./Benchmark.cpp	/^nsecs_t BenchmarkPrivate(const std::string& path) {$/;"	f	namespace:android::vold
+BenchmarkResult	./ResponseCode.h	/^    static const int BenchmarkResult = 661;$/;"	m	class:ResponseCode
+BenchmarkRun	./BenchmarkGen.h	/^static status_t BenchmarkRun() {$/;"	f	namespace:android::vold
+Bicr	./Bicr.cpp	/^Bicr::Bicr() {$/;"	f	class:Bicr
+Bicr	./Bicr.h	/^class Bicr {$/;"	c
+BindMount	./Utils.cpp	/^status_t BindMount(const std::string& source, const std::string& target) {$/;"	f	namespace:android::vold
+BuildKeyPath	./Utils.cpp	/^std::string BuildKeyPath(const std::string& partGuid) {$/;"	f	namespace:android::vold
+CDROMCmd	./CommandListener.cpp	/^CommandListener::CDROMCmd::CDROMCmd() :$/;"	f	class:CommandListener::CDROMCmd
+CDROMCmd	./CommandListener.h	/^    class CDROMCmd : public VoldCommand {$/;"	c	class:CommandListener
+CD_ROM_LUN_PATH	./Bicr.cpp	/^const char *Bicr::CD_ROM_LUN_PATH        = "\/sys\/class\/android_usb\/android0\/f_mass_storage\/lun-cdrom\/file";$/;"	m	class:Bicr	file:
+CD_ROM_LUN_PATH	./Bicr.h	/^    static const char *CD_ROM_LUN_PATH;$/;"	m	class:Bicr
+CD_ROM_PATH	./Bicr.cpp	/^const char *Bicr::CD_ROM_PATH            = "\/dev\/block\/loop0";$/;"	m	class:Bicr	file:
+CD_ROM_PATH	./Bicr.h	/^    static const char *CD_ROM_PATH;$/;"	m	class:Bicr
+CONSTRAIN	./MoveTask.cpp	30;"	d	file:
+CRAYFIX	./hash.h	56;"	d
+CRAYFIX	./hash.h	58;"	d
+CRYPTO_COMPLETE_BAD_METADATA	./cryptfs.h	181;"	d
+CRYPTO_COMPLETE_CORRUPT	./cryptfs.h	184;"	d
+CRYPTO_COMPLETE_ENCRYPTED	./cryptfs.h	180;"	d
+CRYPTO_COMPLETE_INCONSISTENT	./cryptfs.h	183;"	d
+CRYPTO_COMPLETE_NOT_ENCRYPTED	./cryptfs.h	179;"	d
+CRYPTO_COMPLETE_PARTIAL	./cryptfs.h	182;"	d
+CRYPTO_ENABLE_INPLACE	./cryptfs.c	2948;"	d	file:
+CRYPTO_ENABLE_WIPE	./cryptfs.c	2947;"	d	file:
+CRYPTO_GETFIELD_ERROR_BUF_TOO_SMALL	./cryptfs.h	195;"	d
+CRYPTO_GETFIELD_ERROR_NO_FIELD	./cryptfs.h	193;"	d
+CRYPTO_GETFIELD_ERROR_OTHER	./cryptfs.h	194;"	d
+CRYPTO_GETFIELD_OK	./cryptfs.h	192;"	d
+CRYPTO_SETFIELD_ERROR_FIELD_TOO_LONG	./cryptfs.h	200;"	d
+CRYPTO_SETFIELD_ERROR_OTHER	./cryptfs.h	199;"	d
+CRYPTO_SETFIELD_ERROR_VALUE_TOO_LONG	./cryptfs.h	201;"	d
+CRYPTO_SETFIELD_OK	./cryptfs.h	198;"	d
+CRYPT_DATA_CORRUPT	./cryptfs.h	53;"	d
+CRYPT_ENCRYPTION_IN_PROGRESS	./cryptfs.h	48;"	d
+CRYPT_FOOTER_OFFSET	./cryptfs.h	36;"	d
+CRYPT_FOOTER_TO_PERSIST_OFFSET	./cryptfs.h	37;"	d
+CRYPT_INCONSISTENT_STATE	./cryptfs.h	50;"	d
+CRYPT_INPLACE_BUFSIZE	./cryptfs.c	2278;"	d	file:
+CRYPT_MNT_KEY_UNENCRYPTED	./cryptfs.h	47;"	d
+CRYPT_MNT_MAGIC	./cryptfs.h	66;"	d
+CRYPT_PERSIST_DATA_SIZE	./cryptfs.h	38;"	d
+CRYPT_SECTORS_PER_BUFSIZE	./cryptfs.c	2279;"	d	file:
+CRYPT_SECTOR_SIZE	./cryptfs.c	2280;"	d	file:
+CRYPT_TYPE_DEFAULT	./cryptfs.h	60;"	d
+CRYPT_TYPE_MAX_TYPE	./cryptfs.h	64;"	d
+CRYPT_TYPE_PASSWORD	./cryptfs.h	57;"	d
+CRYPT_TYPE_PATTERN	./cryptfs.h	62;"	d
+CRYPT_TYPE_PIN	./cryptfs.h	63;"	d
+CURRENT_MAJOR_VERSION	./cryptfs.h	33;"	d
+CURRENT_MINOR_VERSION	./cryptfs.h	34;"	d
+CdromStatusResult	./ResponseCode.h	/^    static const int CdromStatusResult        = 214;$/;"	m	class:ResponseCode
+Check	./fs/Exfat.cpp	/^status_t Check(const std::string& source) {$/;"	f	namespace:android::vold::exfat
+Check	./fs/Ext4.cpp	/^status_t Check(const std::string& source, const std::string& target) {$/;"	f	namespace:android::vold::ext4
+Check	./fs/F2fs.cpp	/^status_t Check(const std::string& source) {$/;"	f	namespace:android::vold::f2fs
+Check	./fs/Ntfs.cpp	/^status_t Check(const std::string& source) {$/;"	f	namespace:android::vold::ntfs
+Check	./fs/Vfat.cpp	/^status_t Check(const std::string& source) {$/;"	f	namespace:android::vold::vfat
+CheckChildThread	./Process.cpp	/^void CheckChildThread(int pid,const char *path)$/;"	f
+CommandListener	./CommandListener.cpp	/^CommandListener::CommandListener() :$/;"	f	class:CommandListener
+CommandListener	./CommandListener.h	/^class CommandListener : public FrameworkListener {$/;"	c
+CommandNoPermission	./ResponseCode.h	/^    static const int CommandNoPermission = 502;$/;"	m	class:ResponseCode
+CommandOkay	./ResponseCode.h	/^    static const int CommandOkay              = 200;$/;"	m	class:ResponseCode
+CommandParameterError	./ResponseCode.h	/^    static const int CommandParameterError = 501;$/;"	m	class:ResponseCode
+CommandSyntaxError	./ResponseCode.h	/^    static const int CommandSyntaxError = 500;$/;"	m	class:ResponseCode
+ContainerData	./VolumeManager.h	/^    ContainerData(char* _id, container_type_t _type)$/;"	f	class:ContainerData
+ContainerData	./VolumeManager.h	/^class ContainerData {$/;"	c
+CreateDeviceNode	./Utils.cpp	/^status_t CreateDeviceNode(const std::string& path, dev_t dev) {$/;"	f	namespace:android::vold
+CreateFile	./BenchmarkGen.h	/^static status_t CreateFile(const char* name, int len) {$/;"	f	namespace:android::vold
+CryptCommandListener	./CryptCommandListener.cpp	/^CryptCommandListener::CryptCommandListener() :$/;"	f	class:CryptCommandListener
+CryptCommandListener	./CryptCommandListener.h	/^class CryptCommandListener : public FrameworkListener {$/;"	c
+CryptfsCmd	./CryptCommandListener.cpp	/^CryptCommandListener::CryptfsCmd::CryptfsCmd() :$/;"	f	class:CryptCommandListener::CryptfsCmd
+CryptfsCmd	./CryptCommandListener.h	/^    class CryptfsCmd : public VoldCommand {$/;"	c	class:CryptCommandListener
+CryptfsGetfieldResult	./ResponseCode.h	/^    static const int CryptfsGetfieldResult    = 113;$/;"	m	class:ResponseCode
+DATA_MNT_POINT	./cryptfs.h	176;"	d
+DATA_PREP_TIMEOUT	./cryptfs.c	1602;"	d	file:
+DEBUG	./VolumeBase.cpp	33;"	d	file:
+DEFAULT_PASSWORD	./cryptfs.c	82;"	d	file:
+DEVMAPPER_BUFFER_SIZE	./Devmapper.cpp	39;"	d	file:
+DIRTY_RATIO_PATH	./PublicVolume.cpp	297;"	d	file:
+DISALLOW_COPY_AND_ASSIGN	./Utils.h	29;"	d
+DM_CRYPT_BUF_SIZE	./cryptfs.c	74;"	d	file:
+DM_DEV_EXIST_RETRIES	./cryptfs.c	1222;"	d	file:
+DM_DEV_REMOVE_RETRIES	./cryptfs.c	1251;"	d	file:
+DUMP_ARGS	./CommandListener.cpp	51;"	d	file:
+DUMP_ARGS	./CryptCommandListener.cpp	46;"	d	file:
+DefaultFstabPath	./Utils.cpp	/^std::string DefaultFstabPath() {$/;"	f	namespace:android::vold
+DestroyDeviceNode	./Utils.cpp	/^status_t DestroyDeviceNode(const std::string& path) {$/;"	f	namespace:android::vold
+Devmapper	./Devmapper.h	/^class Devmapper {$/;"	c
+Disk	./Disk.cpp	/^Disk::Disk(const std::string& eventPath, dev_t device,$/;"	f	class:android::vold::Disk
+Disk	./Disk.h	/^class Disk {$/;"	c	namespace:android::vold
+DiskCreated	./ResponseCode.h	/^    static const int DiskCreated = 640;$/;"	m	class:ResponseCode
+DiskDestroyed	./ResponseCode.h	/^    static const int DiskDestroyed = 649;$/;"	m	class:ResponseCode
+DiskLabelChanged	./ResponseCode.h	/^    static const int DiskLabelChanged = 642;$/;"	m	class:ResponseCode
+DiskScanned	./ResponseCode.h	/^    static const int DiskScanned = 643;$/;"	m	class:ResponseCode
+DiskSizeChanged	./ResponseCode.h	/^    static const int DiskSizeChanged = 641;$/;"	m	class:ResponseCode
+DiskSource	./VolumeManager.h	/^        DiskSource(const std::string& sysPattern, const std::string& nickname, int flags) :$/;"	f	class:VolumeManager::DiskSource
+DiskSource	./VolumeManager.h	/^    class DiskSource {$/;"	c	class:VolumeManager
+DiskSysPathChanged	./ResponseCode.h	/^    static const int DiskSysPathChanged = 644;$/;"	m	class:ResponseCode
+DumpCmd	./CommandListener.cpp	/^CommandListener::DumpCmd::DumpCmd() :$/;"	f	class:CommandListener::DumpCmd
+DumpCmd	./CommandListener.h	/^    class DumpCmd : public VoldCommand {$/;"	c	class:CommandListener
+ENABLE_DROP_CACHES	./Benchmark.cpp	31;"	d	file:
+ENABLE_INPLACE_ERR_DEV	./cryptfs.h	189;"	d
+ENABLE_INPLACE_ERR_OTHER	./cryptfs.h	188;"	d
+ENABLE_INPLACE_OK	./cryptfs.h	187;"	d
+EXT4_ENCRYPTION_MODE_AES_256_XTS	./Ext4Crypt.cpp	/^    const int EXT4_ENCRYPTION_MODE_AES_256_XTS = 1;$/;"	m	namespace:__anon2	file:
+EXT4_FS	./cryptfs.c	84;"	d	file:
+EXT4_KEY_DESCRIPTOR_SIZE	./Ext4Crypt.cpp	/^    const int EXT4_KEY_DESCRIPTOR_SIZE = 8;$/;"	m	namespace:__anon2	file:
+EXT4_MAX_KEY_SIZE	./Ext4Crypt.cpp	/^    const int EXT4_MAX_KEY_SIZE = 64;$/;"	m	namespace:__anon2	file:
+EXT_SDCARD_TOOL	./VolumeManager.h	239;"	d
+EmulatedVolume	./EmulatedVolume.cpp	/^EmulatedVolume::EmulatedVolume(const std::string& rawPath) :$/;"	f	class:android::vold::EmulatedVolume
+EmulatedVolume	./EmulatedVolume.cpp	/^EmulatedVolume::EmulatedVolume(const std::string& rawPath, dev_t device,$/;"	f	class:android::vold::EmulatedVolume
+EmulatedVolume	./EmulatedVolume.h	/^class EmulatedVolume : public VolumeBase {$/;"	c	namespace:android::vold
+Event	./bench/benchgen.py	/^class Event:$/;"	c
+F2FS_FS	./cryptfs.c	85;"	d	file:
+FAT_IMG_MIN	./fat_on_nand.h	55;"	d
+FAT_IMG_NAME	./fat_on_nand.h	63;"	d
+FAT_PARTITION_MOUNT_POINT	./fat_on_nand.h	58;"	d
+FAT_PARTITION_MOUNT_POINT	./fat_on_nand.h	60;"	d
+FIDTRIM	./TrimTask.cpp	38;"	d	file:
+FRAMEWORK_BOOT_WAIT	./cryptfs.c	2950;"	d	file:
+File	./bench/benchgen.py	/^class File:$/;"	c
+Flags	./Disk.h	/^    enum Flags {$/;"	g	class:android::vold::Disk
+Flags	./TrimTask.h	/^    enum Flags {$/;"	g	class:android::vold::TrimTask
+ForceUnmount	./Utils.cpp	/^status_t ForceUnmount(const std::string& path) {$/;"	f	namespace:android::vold
+ForkExecvp	./Utils.cpp	/^status_t ForkExecvp(const std::vector<std::string>& args) {$/;"	f	namespace:android::vold
+ForkExecvp	./Utils.cpp	/^status_t ForkExecvp(const std::vector<std::string>& args, security_context_t context) {$/;"	f	namespace:android::vold
+ForkExecvp	./Utils.cpp	/^status_t ForkExecvp(const std::vector<std::string>& args,$/;"	f	namespace:android::vold
+ForkExecvpAsync	./Utils.cpp	/^pid_t ForkExecvpAsync(const std::vector<std::string>& args) {$/;"	f	namespace:android::vold
+Format	./fs/Exfat.cpp	/^status_t Format(const std::string& source, unsigned int numSectors) {$/;"	f	namespace:android::vold::exfat
+Format	./fs/Ext4.cpp	/^status_t Format(const std::string& source, unsigned int numSectors,$/;"	f	namespace:android::vold::ext4
+Format	./fs/F2fs.cpp	/^status_t Format(const std::string& source) {$/;"	f	namespace:android::vold::f2fs
+Format	./fs/Ntfs.cpp	/^status_t Format(const std::string& source, unsigned int numSectors) {$/;"	f	namespace:android::vold::ntfs
+Format	./fs/Vfat.cpp	/^status_t Format(const std::string& source, unsigned int numSectors) {$/;"	f	namespace:android::vold::vfat
+FstrimCmd	./CommandListener.cpp	/^CommandListener::FstrimCmd::FstrimCmd() :$/;"	f	class:CommandListener::FstrimCmd
+FstrimCmd	./CommandListener.h	/^    class FstrimCmd : public VoldCommand {$/;"	c	class:CommandListener
+GetAltProps	./Ext4Crypt.cpp	/^static UnencryptedProperties GetAltProps(const char* path)$/;"	f	file:
+GetDevice	./Utils.cpp	/^dev_t GetDevice(const std::string& path) {$/;"	f	namespace:android::vold
+GetFreeBytes	./Utils.cpp	/^uint64_t GetFreeBytes(const std::string& path) {$/;"	f	namespace:android::vold
+GetProps	./Ext4Crypt.cpp	/^static UnencryptedProperties GetProps(const char* path)$/;"	f	file:
+GetPropsOrAltProps	./Ext4Crypt.cpp	/^static UnencryptedProperties GetPropsOrAltProps(const char* path)$/;"	f	file:
+GetTreeBytes	./Utils.cpp	/^uint64_t GetTreeBytes(const std::string& path) {$/;"	f	namespace:android::vold
+HASH_COUNT	./cryptfs.c	76;"	d	file:
+HexToStr	./Utils.cpp	/^status_t HexToStr(const std::string& hex, std::string& str) {$/;"	f	namespace:android::vold
+IV_LEN_BYTES	./cryptfs.c	78;"	d	file:
+Instance	./Bicr.cpp	/^Bicr *Bicr::Instance() {$/;"	f	class:Bicr
+Instance	./NetlinkManager.cpp	/^NetlinkManager *NetlinkManager::Instance() {$/;"	f	class:NetlinkManager
+Instance	./VolumeManager.cpp	/^VolumeManager *VolumeManager::Instance() {$/;"	f	class:VolumeManager
+IntCollection	./Process.cpp	/^typedef android::List<int> IntCollection;$/;"	t	file:
+IsFilesystemSupported	./Utils.cpp	/^bool IsFilesystemSupported(const std::string& fsType) {$/;"	f	namespace:android::vold
+IsProcessInZombieState	./Process.cpp	/^int IsProcessInZombieState(int pid)$/;"	f
+IsSupported	./fs/Exfat.cpp	/^bool IsSupported() {$/;"	f	namespace:android::vold::exfat
+IsSupported	./fs/Ext4.cpp	/^bool IsSupported() {$/;"	f	namespace:android::vold::ext4
+IsSupported	./fs/F2fs.cpp	/^bool IsSupported() {$/;"	f	namespace:android::vold::f2fs
+IsSupported	./fs/Ntfs.cpp	/^bool IsSupported() {$/;"	f	namespace:android::vold::ntfs
+IsSupported	./fs/Vfat.cpp	/^bool IsSupported() {$/;"	f	namespace:android::vold::vfat
+KDF_PBKDF2	./cryptfs.h	73;"	d
+KDF_SCRYPT	./cryptfs.h	74;"	d
+KDF_SCRYPT_KEYMASTER	./cryptfs.h	76;"	d
+KEYMASTER_BLOB_SIZE	./cryptfs.h	79;"	d
+KEYMASTER_CRYPTFS_RATE_LIMIT	./cryptfs.c	92;"	d	file:
+KEY_IN_FOOTER	./cryptfs.c	80;"	d	file:
+KEY_LEN_BYTES	./cryptfs.c	77;"	d	file:
+LOCAL_ADDITIONAL_DEPENDENCIES	./Android.mk	/^LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)\/Android.mk$/;"	m
+LOCAL_ADDITIONAL_DEPENDENCIES	./tests/Android.mk	/^LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)\/Android.mk$/;"	m
+LOCAL_CFLAGS	./Android.mk	/^LOCAL_CFLAGS := $(vold_cflags)$/;"	m
+LOCAL_CLANG	./Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CONLYFLAGS	./Android.mk	/^LOCAL_CONLYFLAGS := $(vold_conlyflags)$/;"	m
+LOCAL_C_INCLUDES	./Android.mk	/^LOCAL_C_INCLUDES := $(common_c_includes)$/;"	m
+LOCAL_C_INCLUDES	./tests/Android.mk	/^LOCAL_C_INCLUDES := \\$/;"	m
+LOCAL_MODULE	./Android.mk	/^LOCAL_MODULE := libvold$/;"	m
+LOCAL_MODULE	./Android.mk	/^LOCAL_MODULE:= vdc$/;"	m
+LOCAL_MODULE	./Android.mk	/^LOCAL_MODULE:= vold$/;"	m
+LOCAL_MODULE	./tests/Android.mk	/^LOCAL_MODULE := vold_tests$/;"	m
+LOCAL_MODULE_TAGS	./Android.mk	/^LOCAL_MODULE_TAGS := eng tests$/;"	m
+LOCAL_MODULE_TAGS	./tests/Android.mk	/^LOCAL_MODULE_TAGS := eng tests$/;"	m
+LOCAL_PATH	./Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_PATH	./tests/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	./Android.mk	/^LOCAL_SHARED_LIBRARIES := $(common_shared_libraries)$/;"	m
+LOCAL_SHARED_LIBRARIES	./Android.mk	/^LOCAL_SHARED_LIBRARIES := libcutils$/;"	m
+LOCAL_SHARED_LIBRARIES	./tests/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	./Android.mk	/^LOCAL_SRC_FILES := $(common_src_files)$/;"	m
+LOCAL_SRC_FILES	./Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	./Android.mk	/^LOCAL_SRC_FILES:= vdc.c$/;"	m
+LOCAL_SRC_FILES	./tests/Android.mk	/^LOCAL_SRC_FILES := VolumeManager_test.cpp$/;"	m
+LOCAL_STATIC_LIBRARIES	./Android.mk	/^LOCAL_STATIC_LIBRARIES := $(common_static_libraries)$/;"	m
+LOCAL_STATIC_LIBRARIES	./tests/Android.mk	/^LOCAL_STATIC_LIBRARIES := libvold$/;"	m
+LOG_TAG	./CheckBattery.cpp	17;"	d	file:
+LOG_TAG	./CommandListener.cpp	31;"	d	file:
+LOG_TAG	./CryptCommandListener.cpp	31;"	d	file:
+LOG_TAG	./Devmapper.cpp	31;"	d	file:
+LOG_TAG	./Ext4Crypt.cpp	18;"	d	file:
+LOG_TAG	./Loop.cpp	31;"	d	file:
+LOG_TAG	./NetlinkHandler.cpp	22;"	d	file:
+LOG_TAG	./NetlinkManager.cpp	29;"	d	file:
+LOG_TAG	./Process.cpp	30;"	d	file:
+LOG_TAG	./ResponseCode.cpp	21;"	d	file:
+LOG_TAG	./VolumeManager.cpp	34;"	d	file:
+LOG_TAG	./cryptfs.c	47;"	d	file:
+LOG_TAG	./fs/Exfat.cpp	38;"	d	file:
+LOG_TAG	./fs/Ext4.cpp	38;"	d	file:
+LOG_TAG	./fs/Ntfs.cpp	38;"	d	file:
+LOG_TAG	./fs/Vfat.cpp	38;"	d	file:
+LOG_TAG	./tests/VolumeManager_test.cpp	19;"	d	file:
+LOOPDIR	./VolumeManager.cpp	/^const char *VolumeManager::LOOPDIR           = "\/mnt\/obb";$/;"	m	class:VolumeManager	file:
+LOOPDIR	./VolumeManager.h	/^    static const char *LOOPDIR;$/;"	m	class:VolumeManager
+LOOP_MAX	./Loop.h	/^    static const int LOOP_MAX = 4096;$/;"	m	class:Loop
+Loop	./Loop.h	/^class Loop {$/;"	c
+MASS_STORAGE_FILE1_PATH	./PublicVolume.cpp	296;"	d	file:
+MASS_STORAGE_FILE_PATH	./PublicVolume.cpp	295;"	d	file:
+MASS_STORAGE_FILE_PATH	./VolumeManager.cpp	64;"	d	file:
+MAX_CRYPTO_TYPE_NAME_LEN	./cryptfs.h	40;"	d
+MAX_KEY_LEN	./cryptfs.h	42;"	d
+MAX_NVRAM_RESTRORE_READY_RETRY_NUM	./main.cpp	506;"	d	file:
+MD5_ASCII_LENGTH_PLUS_NULL	./VolumeManager.h	42;"	d
+MEMINFO_PATH	./VolumeManager.cpp	2061;"	d	file:
+MT_FACTORY_BOOT	./main.cpp	64;"	d	file:
+MT_META_BOOT	./main.cpp	63;"	d	file:
+Mount	./fs/Exfat.cpp	/^status_t Mount(const std::string& source, const std::string& target, bool ro,$/;"	f	namespace:android::vold::exfat
+Mount	./fs/Ext4.cpp	/^status_t Mount(const std::string& source, const std::string& target, bool ro,$/;"	f	namespace:android::vold::ext4
+Mount	./fs/F2fs.cpp	/^status_t Mount(const std::string& source, const std::string& target) {$/;"	f	namespace:android::vold::f2fs
+Mount	./fs/Ntfs.cpp	/^status_t Mount(const std::string& source, const std::string& target, bool ro,$/;"	f	namespace:android::vold::ntfs
+Mount	./fs/Vfat.cpp	/^status_t Mount(const std::string& source, const std::string& target, bool ro,$/;"	f	namespace:android::vold::vfat
+MountFlags	./VolumeBase.h	/^    enum MountFlags {$/;"	g	class:android::vold::VolumeBase
+MoveStatus	./ResponseCode.h	/^    static const int MoveStatus = 660;$/;"	m	class:ResponseCode
+MoveTask	./MoveTask.cpp	/^MoveTask::MoveTask(const std::shared_ptr<VolumeBase>& from,$/;"	f	class:android::vold::MoveTask
+MoveTask	./MoveTask.h	/^class MoveTask {$/;"	c	namespace:android::vold
+NOT_EXIST	./Bicr.h	/^        NOT_EXIST,$/;"	e	enum:Bicr::STATUS
+NTFS_3G_PATH	./PublicVolume.cpp	48;"	d	file:
+N_factor	./Ext4Crypt.cpp	/^        const char* N_factor = "N_factor";$/;"	m	namespace:__anon2::tag	file:
+N_factor	./cryptfs.h	/^  __le8  N_factor; \/* (1 << N) *\/$/;"	m	struct:crypt_mnt_ftr
+NetlinkHandler	./NetlinkHandler.cpp	/^NetlinkHandler::NetlinkHandler(int listenerSocket) :$/;"	f	class:NetlinkHandler
+NetlinkHandler	./NetlinkHandler.h	/^class NetlinkHandler: public NetlinkListener {$/;"	c
+NetlinkManager	./NetlinkManager.cpp	/^NetlinkManager::NetlinkManager() {$/;"	f	class:NetlinkManager
+NetlinkManager	./NetlinkManager.h	/^class NetlinkManager {$/;"	c
+NormalizeHex	./Utils.cpp	/^status_t NormalizeHex(const std::string& in, std::string& out) {$/;"	f	namespace:android::vold
+NvramAccessForOMADM	./main.cpp	/^int NvramAccessForOMADM(OMADMUSB_CFG_Struct *st, bool isRead) {$/;"	f
+OBB	./VolumeManager.h	/^typedef enum { ASEC, OBB } container_type_t;$/;"	e	enum:__anon1
+ObbCmd	./CommandListener.cpp	/^CommandListener::ObbCmd::ObbCmd() :$/;"	f	class:CommandListener::ObbCmd
+ObbCmd	./CommandListener.h	/^    class ObbCmd : public VoldCommand {$/;"	c	class:CommandListener
+OpFailedMediaBlank	./ResponseCode.h	/^    static const int OpFailedMediaBlank       = 402;$/;"	m	class:ResponseCode
+OpFailedMediaCorrupt	./ResponseCode.h	/^    static const int OpFailedMediaCorrupt     = 403;$/;"	m	class:ResponseCode
+OpFailedNoMedia	./ResponseCode.h	/^    static const int OpFailedNoMedia          = 401;$/;"	m	class:ResponseCode
+OpFailedStorageBusy	./ResponseCode.h	/^    static const int OpFailedStorageBusy      = 405;$/;"	m	class:ResponseCode
+OpFailedStorageNotFound	./ResponseCode.h	/^    static const int OpFailedStorageNotFound  = 406;$/;"	m	class:ResponseCode
+OpFailedVolNotMounted	./ResponseCode.h	/^    static const int OpFailedVolNotMounted    = 404;$/;"	m	class:ResponseCode
+OperationFailed	./ResponseCode.h	/^    static const int OperationFailed          = 400;$/;"	m	class:ResponseCode
+PERSIST_DATA_MAGIC	./cryptfs.h	67;"	d
+PERSIST_DEL_KEY_ERROR_NO_FIELD	./cryptfs.h	206;"	d
+PERSIST_DEL_KEY_ERROR_OTHER	./cryptfs.h	205;"	d
+PERSIST_DEL_KEY_OK	./cryptfs.h	204;"	d
+PROTECT_1_MNT_POINT	./cryptfs.c	105;"	d	file:
+PROTECT_2_MNT_POINT	./cryptfs.c	106;"	d	file:
+PasswordTypeResult	./ResponseCode.h	/^    static const int PasswordTypeResult       = 213;$/;"	m	class:ResponseCode
+PrepareDir	./Utils.cpp	/^status_t PrepareDir(const std::string& path, mode_t mode, uid_t uid, gid_t gid) {$/;"	f	namespace:android::vold
+PrivateVolume	./PrivateVolume.cpp	/^PrivateVolume::PrivateVolume(dev_t device, const std::string& keyRaw) :$/;"	f	class:android::vold::PrivateVolume
+PrivateVolume	./PrivateVolume.h	/^class PrivateVolume : public VolumeBase {$/;"	c	namespace:android::vold
+Process	./Process.h	/^class Process {$/;"	c
+PublicVolume	./PublicVolume.cpp	/^PublicVolume::PublicVolume(dev_t device) :$/;"	f	class:android::vold::PublicVolume
+PublicVolume	./PublicVolume.h	/^class PublicVolume : public VolumeBase {$/;"	c	namespace:android::vold
+RESERVE_SIZE	./vdc.c	39;"	d	file:
+RETRY_MOUNT_ATTEMPTS	./cryptfs.c	94;"	d	file:
+RETRY_MOUNT_DELAY_SECONDS	./cryptfs.c	95;"	d	file:
+ROUND_UP_POWER_OF_2	./VolumeManager.cpp	66;"	d	file:
+RSA_EXPONENT	./cryptfs.c	91;"	d	file:
+RSA_KEY_SIZE	./cryptfs.c	89;"	d	file:
+RSA_KEY_SIZE_BYTES	./cryptfs.c	90;"	d	file:
+ReadMetadata	./Utils.cpp	/^status_t ReadMetadata(const std::string& path, std::string& fsType,$/;"	f	namespace:android::vold
+ReadMetadataUntrusted	./Utils.cpp	/^status_t ReadMetadataUntrusted(const std::string& path, std::string& fsType,$/;"	f	namespace:android::vold
+ReadRandomBytes	./Utils.cpp	/^status_t ReadRandomBytes(size_t bytes, std::string& out) {$/;"	f	namespace:android::vold
+RebootType	./cryptfs.c	/^enum RebootType {reboot, recovery, shutdown};$/;"	g	file:
+Resize	./fs/Ext4.cpp	/^status_t Resize(const std::string& source, unsigned int numSectors) {$/;"	f	namespace:android::vold::ext4
+ResponseCode	./ResponseCode.h	/^class ResponseCode {$/;"	c
+SALT_LEN	./cryptfs.h	43;"	d
+SCRYPT_DEFAULTS	./cryptfs.h	70;"	d
+SCRYPT_LEN	./cryptfs.h	44;"	d
+SCRYPT_PROP	./cryptfs.h	69;"	d
+SEC_ASECDIR_EXT	./VolumeManager.cpp	/^const char *VolumeManager::SEC_ASECDIR_EXT   = "\/mnt\/secure\/asec";$/;"	m	class:VolumeManager	file:
+SEC_ASECDIR_EXT	./VolumeManager.h	/^    static const char *SEC_ASECDIR_EXT;$/;"	m	class:VolumeManager
+SEC_ASECDIR_INT	./VolumeManager.cpp	/^const char *VolumeManager::SEC_ASECDIR_INT   = "\/data\/app-asec";$/;"	m	class:VolumeManager	file:
+SEC_ASECDIR_INT	./VolumeManager.h	/^    static const char *SEC_ASECDIR_INT;$/;"	m	class:VolumeManager
+SHA256_DIGEST_LENGTH	./cryptfs.h	85;"	d
+SHA512_LENGTH	./Ext4Crypt.cpp	/^    const int SHA512_LENGTH = 64;$/;"	m	namespace:__anon2	file:
+SHARED	./Bicr.h	/^        SHARED ,$/;"	e	enum:Bicr::STATUS
+SHARING	./Bicr.h	/^        SHARING,$/;"	e	enum:Bicr::STATUS
+STATUS	./Bicr.h	/^    typedef enum STATUS{$/;"	g	class:Bicr
+STATUS_COUNT	./Bicr.h	/^        STATUS_COUNT$/;"	e	enum:Bicr::STATUS
+SetUp	./tests/VolumeManager_test.cpp	/^    virtual void SetUp() {$/;"	f	class:android::VolumeManagerTest
+ShareAvailabilityChange	./ResponseCode.h	/^    static const int ShareAvailabilityChange        = 620;$/;"	m	class:ResponseCode
+ShareEnabledResult	./ResponseCode.h	/^    static const int ShareEnabledResult       = 212;$/;"	m	class:ResponseCode
+ShareStatusResult	./ResponseCode.h	/^    static const int ShareStatusResult        = 210;$/;"	m	class:ResponseCode
+State	./VolumeBase.h	/^    enum class State {$/;"	c	class:android::vold::VolumeBase
+StorageCmd	./CommandListener.cpp	/^CommandListener::StorageCmd::StorageCmd() :$/;"	f	class:CommandListener::StorageCmd
+StorageCmd	./CommandListener.h	/^    class StorageCmd : public VoldCommand {$/;"	c	class:CommandListener
+StorageType	./VolumeBase.h	/^    enum class StorageType {$/;"	c	class:android::vold::VolumeBase
+StorageUsersListResult	./ResponseCode.h	/^    static const int StorageUsersListResult   = 112;$/;"	m	class:ResponseCode
+StrToHex	./Utils.cpp	/^status_t StrToHex(const std::string& str, std::string& hex) {$/;"	f	namespace:android::vold
+TABLE_LOAD_RETRIES	./cryptfs.c	87;"	d	file:
+TAG	./Bicr.cpp	63;"	d	file:
+TEST_F	./tests/VolumeManager_test.cpp	/^TEST_F(VolumeManagerTest, AsecHashTests) {$/;"	f	namespace:android
+Table	./Disk.cpp	/^enum class Table {$/;"	c	namespace:android::vold	file:
+TearDown	./tests/VolumeManager_test.cpp	/^    virtual void TearDown() {$/;"	f	class:android::VolumeManagerTest
+TrimResult	./ResponseCode.h	/^    static const int TrimResult = 662;$/;"	m	class:ResponseCode
+TrimTask	./TrimTask.cpp	/^TrimTask::TrimTask(int flags) : mFlags(flags) {$/;"	f	class:android::vold::TrimTask
+TrimTask	./TrimTask.h	/^class TrimTask {$/;"	c	namespace:android::vold
+Type	./VolumeBase.h	/^    enum class Type {$/;"	c	class:android::vold::VolumeBase
+UMOUNT_NOFOLLOW	./Utils.cpp	41;"	d	file:
+UNMOUNT_NOT_MOUNTED_ERR	./VolumeManager.h	232;"	d
+UNMOUNT_RETRIES	./VolumeManager.cpp	1394;"	d	file:
+UNMOUNT_SLEEP_BETWEEN_RETRY_MS	./VolumeManager.cpp	1395;"	d	file:
+UNSHARED	./Bicr.h	/^        UNSHARED,$/;"	e	enum:Bicr::STATUS
+UNSHARE_RETRIES	./PublicVolume.cpp	397;"	d	file:
+UNSHARE_RETRY_GAP_MS	./PublicVolume.cpp	398;"	d	file:
+UNSHARING	./Bicr.h	/^        UNSHARING,$/;"	e	enum:Bicr::STATUS
+UNUSED	./cryptfs.c	66;"	d	file:
+UNUSED	./cryptfs.c	68;"	d	file:
+USBCmd	./CommandListener.cpp	/^CommandListener::USBCmd::USBCmd() :$/;"	f	class:CommandListener::USBCmd
+USBCmd	./CommandListener.h	/^    class USBCmd : public VoldCommand {$/;"	c	class:CommandListener
+USBEnable	./VolumeManager.cpp	/^int VolumeManager::USBEnable(bool enable) {$/;"	f	class:VolumeManager
+UnsolicitedInformational	./ResponseCode.h	/^    static const int UnsolicitedInformational       = 600;$/;"	m	class:ResponseCode
+VoldCommand	./VoldCommand.cpp	/^VoldCommand::VoldCommand(const char *cmd) :$/;"	f	class:VoldCommand
+VoldCommand	./VoldCommand.h	/^class VoldCommand : public FrameworkCommand {$/;"	c
+VolumeBadRemoval	./ResponseCode.h	/^    static const int VolumeBadRemoval              = 632;$/;"	m	class:ResponseCode
+VolumeBase	./VolumeBase.cpp	/^VolumeBase::VolumeBase(Type type) :$/;"	f	class:android::vold::VolumeBase
+VolumeBase	./VolumeBase.h	/^class VolumeBase {$/;"	c	namespace:android::vold
+VolumeCmd	./CommandListener.cpp	/^CommandListener::VolumeCmd::VolumeCmd() :$/;"	f	class:CommandListener::VolumeCmd
+VolumeCmd	./CommandListener.h	/^    class VolumeCmd : public VoldCommand {$/;"	c	class:CommandListener
+VolumeCreated	./ResponseCode.h	/^    static const int VolumeCreated = 650;$/;"	m	class:ResponseCode
+VolumeDestroyed	./ResponseCode.h	/^    static const int VolumeDestroyed = 659;$/;"	m	class:ResponseCode
+VolumeDiskInserted	./ResponseCode.h	/^    static const int VolumeDiskInserted            = 630;$/;"	m	class:ResponseCode
+VolumeDiskRemoved	./ResponseCode.h	/^    static const int VolumeDiskRemoved             = 631;$/;"	m	class:ResponseCode
+VolumeFsLabelChanged	./ResponseCode.h	/^    static const int VolumeFsLabelChanged = 654;$/;"	m	class:ResponseCode
+VolumeFsTypeChanged	./ResponseCode.h	/^    static const int VolumeFsTypeChanged = 652;$/;"	m	class:ResponseCode
+VolumeFsUuidChanged	./ResponseCode.h	/^    static const int VolumeFsUuidChanged = 653;$/;"	m	class:ResponseCode
+VolumeInternalPathChanged	./ResponseCode.h	/^    static const int VolumeInternalPathChanged = 656;$/;"	m	class:ResponseCode
+VolumeListResult	./ResponseCode.h	/^    static const int VolumeListResult         = 110;$/;"	m	class:ResponseCode
+VolumeManager	./VolumeManager.cpp	/^VolumeManager::VolumeManager() {$/;"	f	class:VolumeManager
+VolumeManager	./VolumeManager.h	/^class VolumeManager {$/;"	c
+VolumeManagerTest	./tests/VolumeManager_test.cpp	/^class VolumeManagerTest : public testing::Test {$/;"	c	namespace:android	file:
+VolumeMountFailedBlank	./ResponseCode.h	/^    static const int VolumeMountFailedBlank         = 610;$/;"	m	class:ResponseCode
+VolumeMountFailedDamaged	./ResponseCode.h	/^    static const int VolumeMountFailedDamaged       = 611;$/;"	m	class:ResponseCode
+VolumeMountFailedNoMedia	./ResponseCode.h	/^    static const int VolumeMountFailedNoMedia       = 612;$/;"	m	class:ResponseCode
+VolumePathChanged	./ResponseCode.h	/^    static const int VolumePathChanged = 655;$/;"	m	class:ResponseCode
+VolumeStateChange	./ResponseCode.h	/^    static const int VolumeStateChange              = 605;$/;"	m	class:ResponseCode
+VolumeStateChanged	./ResponseCode.h	/^    static const int VolumeStateChanged = 651;$/;"	m	class:ResponseCode
+VolumeUserLabelChange	./ResponseCode.h	/^    static const int VolumeUserLabelChange          = 614;$/;"	m	class:ResponseCode
+VolumeUuidChange	./ResponseCode.h	/^    static const int VolumeUuidChange               = 613;$/;"	m	class:ResponseCode
+WaitForFile	./fs/Ntfs.cpp	/^status_t WaitForFile(const char *file)$/;"	f	namespace:android::vold::ntfs
+WipeBlockDevice	./Utils.cpp	/^status_t WipeBlockDevice(const std::string& path) {$/;"	f	namespace:android::vold
+_ASEC_H	./Asec.h	18;"	d
+_BICR_H	./Bicr.h	53;"	d
+_CHECKBATTERY_H__	./CheckBattery.h	18;"	d
+_COMMANDLISTENER_H__	./CommandListener.h	18;"	d
+_CRYPTCOMMANDLISTENER_H__	./CryptCommandListener.h	18;"	d
+_DEVMAPPER_H	./Devmapper.h	18;"	d
+_FAT_ON_NAND_H	./fat_on_nand.h	53;"	d
+_LOOP_H	./Loop.h	18;"	d
+_NETLINKHANDLER_H	./NetlinkHandler.h	18;"	d
+_NETLINKMANAGER_H	./NetlinkManager.h	18;"	d
+_PROCESS_H	./Process.h	18;"	d
+_RESPONSECODE_H	./ResponseCode.h	18;"	d
+_SEHANDLE_H	./sehandle.h	18;"	d
+_VOLDUTIL_H	./VoldUtil.h	18;"	d
+_VOLD_COMMAND_H	./VoldCommand.h	18;"	d
+__hash_h__	./hash.h	39;"	d
+__init__	./bench/benchgen.py	/^    def __init__(self, name, ident):$/;"	m	class:File
+__init__	./bench/benchgen.py	/^    def __init__(self, thread, time, call, args, ret):$/;"	m	class:Event
+__le8	./cryptfs.h	82;"	d
+__repr__	./bench/benchgen.py	/^    def __repr__(self):$/;"	m	class:Event	file:
+__repr__	./bench/benchgen.py	/^    def __repr__(self):$/;"	m	class:File	file:
+_align	./Devmapper.cpp	/^void *Devmapper::_align(void *ptr, unsigned int a)$/;"	f	class:Devmapper
+active	./bench/benchgen.py	/^    active = set()$/;"	v
+addDiskSource	./VolumeManager.cpp	/^void VolumeManager::addDiskSource(const std::shared_ptr<DiskSource>& diskSource) {$/;"	f	class:VolumeManager
+addFromFstab	./TrimTask.cpp	/^void TrimTask::addFromFstab() {$/;"	f	class:android::vold::TrimTask
+addVolume	./VolumeBase.cpp	/^void VolumeBase::addVolume(const std::shared_ptr<VolumeBase>& volume) {$/;"	f	class:android::vold::VolumeBase
+adjustSectorNumExt4	./VolumeManager.cpp	/^static int adjustSectorNumExt4(unsigned numSectors) {$/;"	f	file:
+adjustSectorNumFAT	./VolumeManager.cpp	/^static int adjustSectorNumFAT(unsigned numSectors) {$/;"	f	file:
+android	./Benchmark.cpp	/^namespace android {$/;"	n	file:
+android	./Benchmark.h	/^namespace android {$/;"	n
+android	./BenchmarkGen.h	/^namespace android {$/;"	n
+android	./Disk.cpp	/^namespace android {$/;"	n	file:
+android	./Disk.h	/^namespace android {$/;"	n
+android	./EmulatedVolume.cpp	/^namespace android {$/;"	n	file:
+android	./EmulatedVolume.h	/^namespace android {$/;"	n
+android	./MoveTask.cpp	/^namespace android {$/;"	n	file:
+android	./MoveTask.h	/^namespace android {$/;"	n
+android	./PrivateVolume.cpp	/^namespace android {$/;"	n	file:
+android	./PrivateVolume.h	/^namespace android {$/;"	n
+android	./PublicVolume.cpp	/^namespace android {$/;"	n	file:
+android	./PublicVolume.h	/^namespace android {$/;"	n
+android	./TrimTask.cpp	/^namespace android {$/;"	n	file:
+android	./TrimTask.h	/^namespace android {$/;"	n
+android	./Utils.cpp	/^namespace android {$/;"	n	file:
+android	./Utils.h	/^namespace android {$/;"	n
+android	./VolumeBase.cpp	/^namespace android {$/;"	n	file:
+android	./VolumeBase.h	/^namespace android {$/;"	n
+android	./fs/Exfat.cpp	/^namespace android {$/;"	n	file:
+android	./fs/Exfat.h	/^namespace android {$/;"	n
+android	./fs/Ext4.cpp	/^namespace android {$/;"	n	file:
+android	./fs/Ext4.h	/^namespace android {$/;"	n
+android	./fs/F2fs.cpp	/^namespace android {$/;"	n	file:
+android	./fs/F2fs.h	/^namespace android {$/;"	n
+android	./fs/Ntfs.cpp	/^namespace android {$/;"	n	file:
+android	./fs/Ntfs.h	/^namespace android {$/;"	n
+android	./fs/Vfat.cpp	/^namespace android {$/;"	n	file:
+android	./fs/Vfat.h	/^namespace android {$/;"	n
+android	./tests/VolumeManager_test.cpp	/^namespace android {$/;"	n	file:
+args	./bench/benchgen.py	/^            args = parse_args(args)$/;"	v
+asecHash	./VolumeManager.cpp	/^char *VolumeManager::asecHash(const char *id, char *buffer, size_t len) {$/;"	f	class:VolumeManager
+asec_superblock	./Asec.h	/^struct asec_superblock {$/;"	s
+benchmark	./Benchmark.cpp	/^static nsecs_t benchmark(const std::string& path) {$/;"	f	namespace:android::vold
+benchmarkPrivate	./VolumeManager.cpp	/^nsecs_t VolumeManager::benchmarkPrivate(const std::string& id) {$/;"	f	class:VolumeManager
+blocks_already_done	./cryptfs.c	/^    off64_t blocks_already_done, tot_numblocks;$/;"	m	struct:encryptGroupsData	file:
+bringOffline	./MoveTask.cpp	/^static void bringOffline(const std::shared_ptr<VolumeBase>& vol) {$/;"	f	namespace:android::vold
+bringOnline	./MoveTask.cpp	/^static void bringOnline(const std::shared_ptr<VolumeBase>& vol) {$/;"	f	namespace:android::vold
+buffer	./cryptfs.c	/^    char* buffer;$/;"	m	struct:encryptGroupsData	file:
+bufsize	./bench/benchgen.py	/^bufsize = 1048576$/;"	v
+c_chain	./Asec.h	/^    unsigned char c_chain;$/;"	m	struct:asec_superblock
+c_cipher	./Asec.h	/^    unsigned char c_cipher;$/;"	m	struct:asec_superblock
+c_mode	./Asec.h	/^    unsigned char c_mode;$/;"	m	struct:asec_superblock
+c_opts	./Asec.h	/^    unsigned char c_opts;$/;"	m	struct:asec_superblock
+calculate_dir_size	./Utils.cpp	/^int64_t calculate_dir_size(int dfd) {$/;"	f	namespace:android::vold
+checkFileDescriptorSymLinks	./Process.cpp	/^int Process::checkFileDescriptorSymLinks(int pid, const char *mountPoint) {$/;"	f	class:Process
+checkFileDescriptorSymLinks	./Process.cpp	/^int Process::checkFileDescriptorSymLinks(int pid, const char *mountPoint, char *openFilename, size_t max) {$/;"	f	class:Process
+checkFileMaps	./Process.cpp	/^int Process::checkFileMaps(int pid, const char *mountPoint) {$/;"	f	class:Process
+checkFileMaps	./Process.cpp	/^int Process::checkFileMaps(int pid, const char *mountPoint, char *openFilename, size_t max) {$/;"	f	class:Process
+checkSocketLink	./Process.cpp	/^int Process::checkSocketLink(int pid, const char *target)$/;"	f	class:Process
+checkSymLink	./Process.cpp	/^int Process::checkSymLink(int pid, const char *mountPoint, const char *name) {$/;"	f	class:Process
+check_unmounted_and_get_ftr	./cryptfs.c	/^int check_unmounted_and_get_ftr(struct crypt_mnt_ftr* crypt_ftr)$/;"	f
+chkUnix	./Process.cpp	/^void chkUnix(IntCollection *inodes, const char* source)$/;"	f
+coldboot	./main.cpp	/^static void coldboot(const char *path) {$/;"	f	file:
+coldboot_sem	./main.cpp	/^sem_t coldboot_sem;$/;"	v
+coldboot_sent_uevent_count	./main.cpp	/^int coldboot_sent_uevent_count=0;$/;"	v
+coldboot_sent_uevent_count_only	./main.cpp	/^static bool coldboot_sent_uevent_count_only = true;$/;"	v	file:
+common_c_includes	./Android.mk	/^common_c_includes := \\$/;"	m
+common_shared_libraries	./Android.mk	/^common_shared_libraries := \\$/;"	m
+common_src_files	./Android.mk	/^common_src_files := \\$/;"	m
+common_static_libraries	./Android.mk	/^common_static_libraries := \\$/;"	m
+completed	./cryptfs.c	/^    int completed;$/;"	m	struct:encryptGroupsData	file:
+container_type_t	./VolumeManager.h	/^typedef enum { ASEC, OBB } container_type_t;$/;"	t	typeref:enum:__anon1
+convertFromErrno	./ResponseCode.cpp	/^int ResponseCode::convertFromErrno() {$/;"	f	class:ResponseCode
+convert_key_to_hex_ascii	./cryptfs.c	/^static void convert_key_to_hex_ascii(const unsigned char *master_key,$/;"	f	file:
+copy_log_in_data_tmpfs	./cryptfs.c	/^void copy_log_in_data_tmpfs(char* crypto_blkdev){$/;"	f
+count	./bench/benchgen.py	/^                count = min(int(e.args[1]), bufsize)$/;"	v
+count	./bench/benchgen.py	/^                count = min(int(e.args[2]), bufsize)$/;"	v
+count	./cryptfs.c	/^    int count;$/;"	m	struct:encryptGroupsData	file:
+create	./Devmapper.cpp	/^int Devmapper::create(const char *name, const char *loopFile, const char *key,$/;"	f	class:Devmapper
+create	./Disk.cpp	/^status_t Disk::create() {$/;"	f	class:android::vold::Disk
+create	./Loop.cpp	/^int Loop::create(const char *id, const char *loopFile, char *loopDeviceBuffer, size_t len) {$/;"	f	class:Loop
+create	./VolumeBase.cpp	/^status_t VolumeBase::create() {$/;"	f	class:android::vold::VolumeBase
+createAsec	./VolumeManager.cpp	/^int VolumeManager::createAsec(const char *id, unsigned int numSectors, const char *fstype,$/;"	f	class:VolumeManager
+createImageFile	./Loop.cpp	/^int Loop::createImageFile(const char *file, unsigned int numSectors) {$/;"	f	class:Loop
+createPrivateVolume	./Disk.cpp	/^void Disk::createPrivateVolume(dev_t device, const std::string& partGuid) {$/;"	f	class:android::vold::Disk
+createPublicVolume	./Disk.cpp	/^void Disk::createPublicVolume(dev_t device) {$/;"	f	class:android::vold::Disk
+createRemoveStorageTypeSettings	./VolumeBase.cpp	/^void VolumeBase::createRemoveStorageTypeSettings(bool is_create) {$/;"	f	class:android::vold::VolumeBase
+create_crypto_blk_dev	./cryptfs.c	/^static int create_crypto_blk_dev(struct crypt_mnt_ftr *crypt_ftr,$/;"	f	file:
+create_encrypted_random_key	./cryptfs.c	/^static int create_encrypted_random_key(char *passwd, unsigned char *master_key, unsigned char *salt,$/;"	f	file:
+create_link_for_mtklogger	./main.cpp	/^void create_link_for_mtklogger(const char *ext_sd_path)$/;"	f
+crypt_mnt_ftr	./cryptfs.h	/^struct crypt_mnt_ftr {$/;"	s
+crypt_persist_data	./cryptfs.h	/^struct crypt_persist_data {$/;"	s
+crypt_persist_entry	./cryptfs.h	/^struct crypt_persist_entry {$/;"	s
+crypt_type	./Ext4Crypt.cpp	/^        const char* crypt_type = "crypt_type";$/;"	m	namespace:__anon2::tag	file:
+crypt_type	./cryptfs.h	/^  __le32 crypt_type;    \/* how master_key is encrypted. Must be a$/;"	m	struct:crypt_mnt_ftr
+cryptfs_SHA256_fileblock	./cryptfs.c	/^static int cryptfs_SHA256_fileblock(const char* filename, __le8* buf)$/;"	f	file:
+cryptfs_changepw	./cryptfs.c	/^int cryptfs_changepw(int crypt_type, const char *newpw)$/;"	f
+cryptfs_check_passwd	./cryptfs.c	/^int cryptfs_check_passwd(char *passwd)$/;"	f
+cryptfs_clear_password	./cryptfs.c	/^void cryptfs_clear_password()$/;"	f
+cryptfs_create_default_ftr	./cryptfs.c	/^int cryptfs_create_default_ftr(struct crypt_mnt_ftr* crypt_ftr, __attribute__((unused))int key_length)$/;"	f
+cryptfs_crypto_complete	./cryptfs.c	/^int cryptfs_crypto_complete(void)$/;"	f
+cryptfs_enable	./cryptfs.c	/^int cryptfs_enable(char *howarg, int type, char *passwd, int allow_reboot)$/;"	f
+cryptfs_enable_all_volumes	./cryptfs.c	/^static int cryptfs_enable_all_volumes(struct crypt_mnt_ftr *crypt_ftr, int how,$/;"	f	file:
+cryptfs_enable_default	./cryptfs.c	/^int cryptfs_enable_default(char *howarg, int allow_reboot)$/;"	f
+cryptfs_enable_file	./cryptfs.c	/^int cryptfs_enable_file()$/;"	f
+cryptfs_enable_inplace	./cryptfs.c	/^static int cryptfs_enable_inplace(char *crypto_blkdev, char *real_blkdev,$/;"	f	file:
+cryptfs_enable_inplace_ext4	./cryptfs.c	/^static int cryptfs_enable_inplace_ext4(char *crypto_blkdev,$/;"	f	file:
+cryptfs_enable_inplace_f2fs	./cryptfs.c	/^static int cryptfs_enable_inplace_f2fs(char *crypto_blkdev,$/;"	f	file:
+cryptfs_enable_inplace_full	./cryptfs.c	/^static int cryptfs_enable_inplace_full(char *crypto_blkdev, char *real_blkdev,$/;"	f	file:
+cryptfs_enable_internal	./cryptfs.c	/^int cryptfs_enable_internal(char *howarg, int crypt_type, char *passwd,$/;"	f
+cryptfs_enable_wipe	./cryptfs.c	/^static int cryptfs_enable_wipe(char *crypto_blkdev, off64_t size, int type)$/;"	f	file:
+cryptfs_get_master_key	./cryptfs.c	/^int cryptfs_get_master_key(struct crypt_mnt_ftr* ftr, const char* password,$/;"	f
+cryptfs_get_password	./cryptfs.c	/^const char* cryptfs_get_password()$/;"	f
+cryptfs_get_password_type	./cryptfs.c	/^int cryptfs_get_password_type(void)$/;"	f
+cryptfs_getfield	./cryptfs.c	/^int cryptfs_getfield(const char *fieldname, char *value, int len)$/;"	f
+cryptfs_init_crypt_mnt_ftr	./cryptfs.c	/^static int cryptfs_init_crypt_mnt_ftr(struct crypt_mnt_ftr *ftr)$/;"	f	file:
+cryptfs_mount_default_encrypted	./cryptfs.c	/^int cryptfs_mount_default_encrypted(void)$/;"	f
+cryptfs_reboot	./cryptfs.c	/^static void cryptfs_reboot(enum RebootType rt)$/;"	f	file:
+cryptfs_restart	./cryptfs.c	/^int cryptfs_restart(void)$/;"	f
+cryptfs_restart_internal	./cryptfs.c	/^static int cryptfs_restart_internal(int restart_main)$/;"	f	file:
+cryptfs_revert_ext_volume	./cryptfs.c	/^int cryptfs_revert_ext_volume(const char* label) {$/;"	f
+cryptfs_set_corrupt	./cryptfs.c	/^static void cryptfs_set_corrupt()$/;"	f	file:
+cryptfs_set_password	./cryptfs.c	/^int cryptfs_set_password(struct crypt_mnt_ftr* ftr, const char* password,$/;"	f
+cryptfs_setfield	./cryptfs.c	/^int cryptfs_setfield(const char *fieldname, const char *value)$/;"	f
+cryptfs_setup_ext_volume	./cryptfs.c	/^int cryptfs_setup_ext_volume(const char* label, const char* real_blkdev,$/;"	f
+cryptfs_trigger_restart_min_framework	./cryptfs.c	/^static void cryptfs_trigger_restart_min_framework()$/;"	f	file:
+cryptfs_verify_passwd	./cryptfs.c	/^int cryptfs_verify_passwd(char *passwd)$/;"	f
+crypto_blkdev	./cryptfs.c	/^    char* real_blkdev, * crypto_blkdev;$/;"	m	struct:encryptGroupsData	file:
+crypto_type_name	./Ext4Crypt.cpp	/^        const char* crypto_type_name = "crypto_type_name";$/;"	m	namespace:__anon2::tag	file:
+crypto_type_name	./cryptfs.h	/^  unsigned char crypto_type_name[MAX_CRYPTO_TYPE_NAME_LEN]; \/* The type of encryption$/;"	m	struct:crypt_mnt_ftr
+cryptofd	./cryptfs.c	/^    int cryptofd;$/;"	m	struct:encryptGroupsData	file:
+cshift	./hash.h	/^cshift (u_int32_t x, unsigned int n)$/;"	f
+cur_pct	./cryptfs.c	/^    off64_t one_pct, cur_pct, new_pct;$/;"	m	struct:encryptGroupsData	file:
+decrypt_master_key	./cryptfs.c	/^static int decrypt_master_key(const char *passwd, unsigned char *decrypted_master_key,$/;"	f	file:
+decrypt_master_key_aux	./cryptfs.c	/^static int decrypt_master_key_aux(const char *passwd, unsigned char *salt,$/;"	f	file:
+defined	./bench/benchgen.py	/^    defined = set()$/;"	v
+delete_crypto_blk_dev	./cryptfs.c	/^static int delete_crypto_blk_dev(char *name)$/;"	f	file:
+destroy	./Devmapper.cpp	/^int Devmapper::destroy(const char *name) {$/;"	f	class:Devmapper
+destroy	./Disk.cpp	/^status_t Disk::destroy() {$/;"	f	class:android::vold::Disk
+destroy	./VolumeBase.cpp	/^status_t VolumeBase::destroy() {$/;"	f	class:android::vold::VolumeBase
+destroyAllVolumes	./Disk.cpp	/^void Disk::destroyAllVolumes() {$/;"	f	class:android::vold::Disk
+destroyAsec	./VolumeManager.cpp	/^int VolumeManager::destroyAsec(const char *id, bool force) {$/;"	f	class:VolumeManager
+destroyByDevice	./Loop.cpp	/^int Loop::destroyByDevice(const char *loopDevice) {$/;"	f	class:Loop
+destroyByFile	./Loop.cpp	/^int Loop::destroyByFile(const char * \/*loopFile*\/) {$/;"	f	class:Loop
+dirtyRatio	./VolumeManager.cpp	/^int VolumeManager::dirtyRatio() {$/;"	f	class:VolumeManager
+disable_usb_by_dm	./main.cpp	/^void disable_usb_by_dm(){$/;"	f
+disable_usb_by_dm	./main.cpp	/^void disable_usb_by_dm(){}$/;"	f
+doCreate	./PrivateVolume.cpp	/^status_t PrivateVolume::doCreate() {$/;"	f	class:android::vold::PrivateVolume
+doCreate	./PublicVolume.cpp	/^status_t PublicVolume::doCreate() {$/;"	f	class:android::vold::PublicVolume
+doCreate	./VolumeBase.cpp	/^status_t VolumeBase::doCreate() {$/;"	f	class:android::vold::VolumeBase
+doDestroy	./PrivateVolume.cpp	/^status_t PrivateVolume::doDestroy() {$/;"	f	class:android::vold::PrivateVolume
+doDestroy	./PublicVolume.cpp	/^status_t PublicVolume::doDestroy() {$/;"	f	class:android::vold::PublicVolume
+doDestroy	./VolumeBase.cpp	/^status_t VolumeBase::doDestroy() {$/;"	f	class:android::vold::VolumeBase
+doFormat	./PrivateVolume.cpp	/^status_t PrivateVolume::doFormat(const std::string& fsType) {$/;"	f	class:android::vold::PrivateVolume
+doFormat	./PublicVolume.cpp	/^status_t PublicVolume::doFormat(const std::string& fsType) {$/;"	f	class:android::vold::PublicVolume
+doFormat	./VolumeBase.cpp	/^status_t VolumeBase::doFormat(const std::string& fsType) {$/;"	f	class:android::vold::VolumeBase
+doMount	./EmulatedVolume.cpp	/^status_t EmulatedVolume::doMount() {$/;"	f	class:android::vold::EmulatedVolume
+doMount	./PrivateVolume.cpp	/^status_t PrivateVolume::doMount() {$/;"	f	class:android::vold::PrivateVolume
+doMount	./PublicVolume.cpp	/^status_t PublicVolume::doMount() {$/;"	f	class:android::vold::PublicVolume
+doShare	./PublicVolume.cpp	/^status_t PublicVolume::doShare() {$/;"	f	class:android::vold::PublicVolume
+doShare	./VolumeBase.h	/^    virtual status_t doShare() { return OK; };$/;"	f	class:android::vold::VolumeBase
+doUnmount	./EmulatedVolume.cpp	/^status_t EmulatedVolume::doUnmount() {$/;"	f	class:android::vold::EmulatedVolume
+doUnmount	./PrivateVolume.cpp	/^status_t PrivateVolume::doUnmount() {$/;"	f	class:android::vold::PrivateVolume
+doUnmount	./PublicVolume.cpp	/^status_t PublicVolume::doUnmount() {$/;"	f	class:android::vold::PublicVolume
+doUnshare	./PublicVolume.cpp	/^status_t PublicVolume::doUnshare() {$/;"	f	class:android::vold::PublicVolume
+doUnshare	./VolumeBase.h	/^    virtual status_t doUnshare() { return OK; };$/;"	f	class:android::vold::VolumeBase
+do_cmd	./vdc.c	/^static int do_cmd(int sock, int argc, char **argv) {$/;"	f	file:
+do_coldboot	./main.cpp	/^static void do_coldboot(DIR *d, int lvl) {$/;"	f	file:
+do_crypto_complete	./cryptfs.c	/^static int do_crypto_complete(char *mount_point)$/;"	f	file:
+do_disable_usb_by_dm	./main.cpp	/^static void *do_disable_usb_by_dm(void *ignored){$/;"	f	file:
+do_monitor	./vdc.c	/^static int do_monitor(int sock, int stop_after_cmd) {$/;"	f	file:
+dumpArgs	./CommandListener.cpp	/^void CommandListener::dumpArgs(int \/*argc*\/, char ** \/*argv*\/, int \/*argObscure*\/) { }$/;"	f	class:CommandListener
+dumpArgs	./CommandListener.cpp	/^void CommandListener::dumpArgs(int argc, char **argv, int argObscure) {$/;"	f	class:CommandListener
+dumpArgs	./CryptCommandListener.cpp	/^void CryptCommandListener::dumpArgs(int \/*argc*\/, char ** \/*argv*\/, int \/*argObscure*\/) { }$/;"	f	class:CryptCommandListener
+dumpArgs	./CryptCommandListener.cpp	/^void CryptCommandListener::dumpArgs(int argc, char **argv, int argObscure) {$/;"	f	class:CryptCommandListener
+dumpState	./Devmapper.cpp	/^int Devmapper::dumpState(SocketClient *c) {$/;"	f	class:Devmapper
+dumpState	./Loop.cpp	/^int Loop::dumpState(SocketClient *c) {$/;"	f	class:Loop
+e4crypt_change_password	./Ext4Crypt.cpp	/^int e4crypt_change_password(const char* path, int crypt_type,$/;"	f
+e4crypt_check_passwd	./Ext4Crypt.cpp	/^int e4crypt_check_passwd(const char* path, const char* password)$/;"	f
+e4crypt_clear_password	./Ext4Crypt.cpp	/^void e4crypt_clear_password(const char* path)$/;"	f
+e4crypt_crypto_complete	./Ext4Crypt.cpp	/^int e4crypt_crypto_complete(const char* path)$/;"	f
+e4crypt_enable	./Ext4Crypt.cpp	/^int e4crypt_enable(const char* path)$/;"	f
+e4crypt_get_field	./Ext4Crypt.cpp	/^int e4crypt_get_field(const char* path, const char* fieldname,$/;"	f
+e4crypt_get_password	./Ext4Crypt.cpp	/^const char* e4crypt_get_password(const char* path)$/;"	f
+e4crypt_get_password_type	./Ext4Crypt.cpp	/^int e4crypt_get_password_type(const char* path)$/;"	f
+e4crypt_restart	./Ext4Crypt.cpp	/^int e4crypt_restart(const char* path)$/;"	f
+e4crypt_set_field	./Ext4Crypt.cpp	/^int e4crypt_set_field(const char* path, const char* fieldname,$/;"	f
+encryptGroupsData	./cryptfs.c	/^struct encryptGroupsData$/;"	s	file:
+encrypt_groups	./cryptfs.c	/^static int encrypt_groups(struct encryptGroupsData* data)$/;"	f	file:
+encrypt_master_key	./cryptfs.c	/^static int encrypt_master_key(const char *passwd, const unsigned char *salt,$/;"	f	file:
+encrypt_one_block_f2fs	./cryptfs.c	/^static int encrypt_one_block_f2fs(u64 pos, void *data)$/;"	f	file:
+encrypted_upto	./cryptfs.h	/^  __le64 encrypted_upto; \/* If we are in state CRYPT_ENCRYPTION_IN_PROGRESS and$/;"	m	struct:crypt_mnt_ftr
+events	./bench/benchgen.py	/^    events = sorted(events, key=lambda e: e.time)$/;"	v
+events	./bench/benchgen.py	/^events = []$/;"	v
+execCp	./MoveTask.cpp	/^static status_t execCp(const std::string& fromPath, const std::string& toPath,$/;"	f	namespace:android::vold
+execRm	./MoveTask.cpp	/^static status_t execRm(const std::string& path, int startProgress, int stepProgress) {$/;"	f	namespace:android::vold
+exfat	./fs/Exfat.cpp	/^namespace exfat {$/;"	n	namespace:android::vold	file:
+exfat	./fs/Exfat.h	/^namespace exfat {$/;"	n	namespace:android::vold
+expiry_time	./Ext4Crypt.cpp	/^        time_t expiry_time;$/;"	m	struct:__anon2::keys	file:
+ext4	./fs/Ext4.cpp	/^namespace ext4 {$/;"	n	namespace:android::vold	file:
+ext4	./fs/Ext4.h	/^namespace ext4 {$/;"	n	namespace:android::vold
+ext4_encryption_key	./Ext4Crypt.cpp	/^    struct ext4_encryption_key {$/;"	s	namespace:__anon2	file:
+extract_file	./bench/benchgen.py	/^def extract_file(e, arg):$/;"	f
+f2fs	./fs/F2fs.cpp	/^namespace f2fs {$/;"	n	namespace:android::vold	file:
+f2fs	./fs/F2fs.h	/^namespace f2fs {$/;"	n	namespace:android::vold
+failed_decrypt_count	./Ext4Crypt.cpp	/^        const char* failed_decrypt_count = "failed_decrypt_count";$/;"	m	namespace:__anon2::tag	file:
+failed_decrypt_count	./cryptfs.h	/^  __le32 failed_decrypt_count; \/* count of # of failed attempts to decrypt and$/;"	m	struct:crypt_mnt_ftr
+files	./bench/benchgen.py	/^files = {}$/;"	v
+finalizeAsec	./VolumeManager.cpp	/^int VolumeManager::finalizeAsec(const char *id) {$/;"	f	class:VolumeManager
+findAsec	./VolumeManager.cpp	/^int VolumeManager::findAsec(const char *id, char *asecPath, size_t asecPathLen,$/;"	f	class:VolumeManager
+findDisk	./VolumeManager.cpp	/^std::shared_ptr<android::vold::Disk> VolumeManager::findDisk(const std::string& id) {$/;"	f	class:VolumeManager
+findVolume	./Disk.cpp	/^std::shared_ptr<VolumeBase> Disk::findVolume(const std::string& id) {$/;"	f	class:android::vold::Disk
+findVolume	./VolumeBase.cpp	/^std::shared_ptr<VolumeBase> VolumeBase::findVolume(const std::string& id) {$/;"	f	class:android::vold::VolumeBase
+findVolume	./VolumeManager.cpp	/^std::shared_ptr<android::vold::VolumeBase> VolumeManager::findVolume(const std::string& id) {$/;"	f	class:VolumeManager
+find_file	./bench/benchgen.py	/^def find_file(name):$/;"	f
+fixupAsecPermissions	./VolumeManager.cpp	/^int VolumeManager::fixupAsecPermissions(const char *id, gid_t gid, const char* filename) {$/;"	f	class:VolumeManager
+flags	./Ext4Crypt.cpp	/^        const char* flags = "flags";$/;"	m	namespace:__anon2::tag	file:
+flags	./cryptfs.h	/^  __le32 flags;         \/* See above *\/$/;"	m	struct:crypt_mnt_ftr
+flush_outstanding_data	./cryptfs.c	/^static int flush_outstanding_data(struct encryptGroupsData* data)$/;"	f	file:
+forgetPartition	./VolumeManager.cpp	/^int VolumeManager::forgetPartition(const std::string& partGuid) {$/;"	f	class:VolumeManager
+format	./VolumeBase.cpp	/^status_t VolumeBase::format(const std::string& fsType) {$/;"	f	class:android::vold::VolumeBase
+fs_size	./cryptfs.h	/^  __le64 fs_size;	\/* Size of the encrypted fs, in 512 byte sectors *\/$/;"	m	struct:crypt_mnt_ftr
+fstab	./main.cpp	/^struct fstab *fstab;$/;"	v	typeref:struct:fstab
+ftr_size	./cryptfs.h	/^  __le32 ftr_size;      \/* in bytes, not including key following *\/$/;"	m	struct:crypt_mnt_ftr
+generate_key_ref	./Ext4Crypt.cpp	/^static std::string generate_key_ref(const char* key, int length)$/;"	f	file:
+getAsecFilesystemPath	./VolumeManager.cpp	/^int VolumeManager::getAsecFilesystemPath(const char *id, char *buffer, int maxlen) {$/;"	f	class:VolumeManager
+getAsecMountPath	./VolumeManager.cpp	/^int VolumeManager::getAsecMountPath(const char *id, char *buffer, int maxlen) {$/;"	f	class:VolumeManager
+getBroadcaster	./NetlinkManager.h	/^    SocketListener *getBroadcaster() { return mBroadcaster; }$/;"	f	class:NetlinkManager
+getBroadcaster	./VolumeManager.h	/^    SocketListener *getBroadcaster() { return mBroadcaster; }$/;"	f	class:VolumeManager
+getDevPath	./Disk.h	/^    const std::string& getDevPath() { return mDevPath; }$/;"	f	class:android::vold::Disk
+getDevice	./Disk.h	/^    dev_t getDevice() { return mDevice; }$/;"	f	class:android::vold::Disk
+getDiskId	./VolumeBase.h	/^    const std::string& getDiskId() { return mDiskId; }$/;"	f	class:android::vold::VolumeBase
+getEventPath	./Disk.h	/^    const std::string& getEventPath() { return mEventPath; }$/;"	f	class:android::vold::Disk
+getFlags	./Disk.h	/^    int getFlags() { return mFlags; }$/;"	f	class:android::vold::Disk
+getFlags	./VolumeManager.h	/^        int getFlags() { return mFlags; }$/;"	f	class:VolumeManager::DiskSource
+getId	./Disk.h	/^    const std::string& getId() { return mId; }$/;"	f	class:android::vold::Disk
+getId	./VolumeBase.h	/^    const std::string& getId() { return mId; }$/;"	f	class:android::vold::VolumeBase
+getInternalPath	./VolumeBase.h	/^    const std::string& getInternalPath() { return mInternalPath; }$/;"	f	class:android::vold::VolumeBase
+getLabel	./Disk.h	/^    const std::string& getLabel() { return mLabel; }$/;"	f	class:android::vold::Disk
+getLock	./VolumeManager.h	/^    std::mutex& getLock() { return mLock; }$/;"	f	class:VolumeManager
+getMaxMinors	./Disk.cpp	/^int Disk::getMaxMinors() {$/;"	f	class:android::vold::Disk
+getMountFlags	./VolumeBase.h	/^    int getMountFlags() { return mMountFlags; }$/;"	f	class:android::vold::VolumeBase
+getMountUserId	./VolumeBase.h	/^    userid_t getMountUserId() { return mMountUserId; }$/;"	f	class:android::vold::VolumeBase
+getNickname	./VolumeManager.h	/^        const std::string& getNickname() { return mNickname; }$/;"	f	class:VolumeManager::DiskSource
+getObbMountPath	./VolumeManager.cpp	/^int VolumeManager::getObbMountPath(const char *sourceFile, char *mountPath, int mountPathLen) {$/;"	f	class:VolumeManager
+getPartGuid	./VolumeBase.h	/^    const std::string& getPartGuid() { return mPartGuid; }$/;"	f	class:android::vold::VolumeBase
+getPath	./VolumeBase.h	/^    const std::string& getPath() { return mPath; }$/;"	f	class:android::vold::VolumeBase
+getPid	./Process.cpp	/^int Process::getPid(const char *s) {$/;"	f	class:Process
+getProcessName	./Process.cpp	/^void Process::getProcessName(int pid, char *buffer, size_t max) {$/;"	f	class:Process
+getSize	./Disk.h	/^    uint64_t getSize() { return mSize; }$/;"	f	class:android::vold::Disk
+getState	./Bicr.h	/^    int getState() { return mState; }$/;"	f	class:Bicr
+getState	./VolumeBase.h	/^    State getState() { return mState; }$/;"	f	class:android::vold::VolumeBase
+getStatus	./Bicr.cpp	/^const char* Bicr::getStatus() {$/;"	f	class:Bicr
+getSysPath	./Disk.h	/^    const std::string& getSysPath() { return mSysPath; }$/;"	f	class:android::vold::Disk
+getType	./CryptCommandListener.cpp	/^static int getType(const char* type)$/;"	f	file:
+getType	./VolumeBase.h	/^    Type getType() { return mType; }$/;"	f	class:android::vold::VolumeBase
+get_blkdev_size	./VoldUtil.c	/^void get_blkdev_size(int fd, unsigned long* nr_sec) {$/;"	f
+get_boot_mode	./main.cpp	/^int get_boot_mode(void)$/;"	f
+get_crypt_ftr_and_key	./Ext4Crypt.cpp	/^static int get_crypt_ftr_and_key(crypt_mnt_ftr& crypt_ftr,$/;"	f	file:
+get_crypt_ftr_and_key	./cryptfs.c	/^static int get_crypt_ftr_and_key(struct crypt_mnt_ftr *crypt_ftr)$/;"	f	file:
+get_crypt_ftr_info	./cryptfs.c	/^static int get_crypt_ftr_info(char **metadata_fname, off64_t *off)$/;"	f	file:
+get_device_scrypt_params	./cryptfs.c	/^static void get_device_scrypt_params(struct crypt_mnt_ftr *ftr) {$/;"	f	file:
+get_dm_crypt_version	./cryptfs.c	/^static int get_dm_crypt_version(int fd, const char *name,  int *version)$/;"	f	file:
+get_fs_size	./cryptfs.c	/^static unsigned int get_fs_size(char *dev)$/;"	f	file:
+get_fs_type	./cryptfs.c	/^static int get_fs_type(struct fstab_rec *rec)$/;"	f	file:
+get_is_nvram_in_data	./main.cpp	/^void get_is_nvram_in_data() {$/;"	f
+get_kdf_func	./cryptfs.c	/^static void get_kdf_func(struct crypt_mnt_ftr *ftr, kdf_func *kdf, void** kdf_params)$/;"	f	file:
+get_usb_cmode_path	./main.cpp	/^char* get_usb_cmode_path(){$/;"	f
+handleBlockEvent	./VolumeManager.cpp	/^void VolumeManager::handleBlockEvent(NetlinkEvent *evt) {$/;"	f	class:VolumeManager
+hash_first_block	./cryptfs.h	/^  __le8  hash_first_block[SHA256_DIGEST_LENGTH]; \/* When CRYPT_ENCRYPTION_IN_PROGRESS$/;"	m	struct:crypt_mnt_ftr
+id	./VolumeManager.h	/^    char *id;$/;"	m	class:ContainerData
+initAsecStage	./PublicVolume.cpp	/^status_t PublicVolume::initAsecStage() {$/;"	f	class:android::vold::PublicVolume
+init_empty_persist_data	./cryptfs.c	/^static void init_empty_persist_data(struct crypt_persist_data *pdata, int len)$/;"	f	file:
+interesting	./bench/benchgen.py	/^interesting = ["mmap2","read","write","pread64","pwrite64","fsync","fdatasync","openat","close","lseek","_llseek"]$/;"	v
+invoke_coldboot	./main.cpp	/^void invoke_coldboot() {$/;"	f
+ioctlInit	./Devmapper.cpp	/^void Devmapper::ioctlInit(struct dm_ioctl *io, size_t dataSize,$/;"	f	class:Devmapper
+ioctl_init	./cryptfs.c	/^static void ioctl_init(struct dm_ioctl *io, size_t dataSize, const char *name, unsigned flags)$/;"	f	file:
+ipo	./VolumeManager.cpp	/^int VolumeManager::ipo(const char *cmd) {$/;"	f	class:VolumeManager
+isAsecInDirectory	./VolumeManager.cpp	/^bool VolumeManager::isAsecInDirectory(const char *dir, const char *asecName) const {$/;"	f	class:VolumeManager
+isLegalAsecId	./VolumeManager.cpp	/^bool VolumeManager::isLegalAsecId(const char *id) const {$/;"	f	class:VolumeManager
+isMountpointMounted	./VolumeManager.cpp	/^bool VolumeManager::isMountpointMounted(const char *mp)$/;"	f	class:VolumeManager
+isMountpointMounted	./main.cpp	/^bool isMountpointMounted(const char *mp)$/;"	f
+is_battery_ok_to_continue	./CheckBattery.cpp	/^    int is_battery_ok_to_continue()$/;"	f
+is_battery_ok_to_start	./CheckBattery.cpp	/^    int is_battery_ok_to_start()$/;"	f
+is_meta_boot	./main.cpp	/^int is_meta_boot(void)$/;"	f
+is_nvram_in_data	./main.cpp	/^bool is_nvram_in_data = true;$/;"	v
+kAdoptable	./Disk.h	/^        kAdoptable = 1 << 0,$/;"	e	enum:android::vold::Disk::Flags
+kAsec	./VolumeBase.h	/^        kAsec,$/;"	m	class:android::vold::VolumeBase::Type
+kAsecPath	./PublicVolume.cpp	/^static const char* kAsecPath = "\/mnt\/secure\/asec";$/;"	m	namespace:android::vold	file:
+kBadRemoval	./VolumeBase.h	/^        kBadRemoval,$/;"	m	class:android::vold::VolumeBase::State
+kBenchmarkAfter	./TrimTask.h	/^        kBenchmarkAfter = 1 << 1,$/;"	e	enum:android::vold::TrimTask::Flags
+kBlkidPath	./Utils.cpp	/^static const char* kBlkidPath = "\/system\/bin\/blkid";$/;"	m	namespace:android::vold	file:
+kChecking	./VolumeBase.h	/^        kChecking,$/;"	m	class:android::vold::VolumeBase::State
+kCpPath	./MoveTask.cpp	/^static const char* kCpPath = "\/system\/bin\/cp";$/;"	m	namespace:android::vold	file:
+kDeepTrim	./TrimTask.h	/^        kDeepTrim = 1 << 0,$/;"	e	enum:android::vold::TrimTask::Flags
+kDefaultPrimary	./Disk.h	/^        kDefaultPrimary = 1 << 1,$/;"	e	enum:android::vold::Disk::Flags
+kEjecting	./VolumeBase.h	/^        kEjecting,$/;"	m	class:android::vold::VolumeBase::State
+kEmmc	./Disk.h	/^        kEmmc = 1 << 4,$/;"	e	enum:android::vold::Disk::Flags
+kEmulated	./VolumeBase.h	/^        kEmulated = 0,$/;"	m	class:android::vold::VolumeBase::StorageType
+kEmulated	./VolumeBase.h	/^        kEmulated,$/;"	m	class:android::vold::VolumeBase::Type
+kExternalSD	./VolumeBase.h	/^        kExternalSD,$/;"	m	class:android::vold::VolumeBase::StorageType
+kFormatting	./VolumeBase.h	/^        kFormatting,$/;"	m	class:android::vold::VolumeBase::State
+kFsckPath	./fs/Exfat.cpp	/^static const char* kFsckPath = "\/system\/bin\/exfatfsck";$/;"	m	namespace:android::vold::exfat	file:
+kFsckPath	./fs/Ext4.cpp	/^static const char* kFsckPath = "\/system\/bin\/e2fsck";$/;"	m	namespace:android::vold::ext4	file:
+kFsckPath	./fs/F2fs.cpp	/^static const char* kFsckPath = "\/system\/bin\/fsck.f2fs";$/;"	m	namespace:android::vold::f2fs	file:
+kFsckPath	./fs/Ntfs.cpp	/^static const char* kFsckPath = "\/system\/bin\/ntfsfix";$/;"	m	namespace:android::vold::ntfs	file:
+kFsckPath	./fs/Vfat.cpp	/^static const char* kFsckPath = "\/system\/bin\/fsck_msdos";$/;"	m	namespace:android::vold::vfat	file:
+kFusePath	./EmulatedVolume.cpp	/^static const char* kFusePath = "\/system\/bin\/sdcard";$/;"	m	namespace:android::vold	file:
+kFusePath	./PublicVolume.cpp	/^static const char* kFusePath = "\/system\/bin\/sdcard";$/;"	m	namespace:android::vold	file:
+kGpt	./Disk.cpp	/^    kGpt,$/;"	m	class:android::vold::Table	file:
+kGptAndroidExpand	./Disk.cpp	/^static const char* kGptAndroidExpand = "193D1EA4-B3CA-11E4-B075-10604B889DCF";$/;"	m	namespace:android::vold	file:
+kGptAndroidMeta	./Disk.cpp	/^static const char* kGptAndroidMeta = "19A710A2-B3CA-11E4-B026-10604B889DCF";$/;"	m	namespace:android::vold	file:
+kGptBasicData	./Disk.cpp	/^static const char* kGptBasicData = "EBD0A0A2-B9E5-4433-87C0-68B6B72699C7";$/;"	m	namespace:android::vold	file:
+kKeyPath	./Utils.cpp	/^static const char* kKeyPath = "\/data\/misc\/vold";$/;"	m	namespace:android::vold	file:
+kLookup	./Utils.cpp	/^static const char* kLookup = "0123456789abcdef";$/;"	m	namespace:android::vold	file:
+kMajorBlockLoop	./Disk.h	/^    static const unsigned int kMajorBlockLoop = 7;$/;"	m	class:android::vold::Disk
+kMajorBlockMmc	./Disk.cpp	/^static const unsigned int kMajorBlockMmc = 179;$/;"	m	namespace:android::vold	file:
+kMajorBlockMmc	./Disk.h	/^    static const unsigned int kMajorBlockMmc = 179;$/;"	m	class:android::vold::Disk
+kMajorBlockMmc	./PrivateVolume.cpp	/^static const unsigned int kMajorBlockMmc = 179;$/;"	m	namespace:android::vold	file:
+kMajorBlockMmc	./PublicVolume.cpp	/^static const unsigned int kMajorBlockMmc = 179;$/;"	m	namespace:android::vold	file:
+kMajorBlockMmc	./VolumeManager.cpp	/^static const unsigned int kMajorBlockMmc = 179;$/;"	v	file:
+kMajorBlockScsiA	./Disk.cpp	/^static const unsigned int kMajorBlockScsiA = 8;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiB	./Disk.cpp	/^static const unsigned int kMajorBlockScsiB = 65;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiC	./Disk.cpp	/^static const unsigned int kMajorBlockScsiC = 66;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiD	./Disk.cpp	/^static const unsigned int kMajorBlockScsiD = 67;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiE	./Disk.cpp	/^static const unsigned int kMajorBlockScsiE = 68;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiF	./Disk.cpp	/^static const unsigned int kMajorBlockScsiF = 69;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiG	./Disk.cpp	/^static const unsigned int kMajorBlockScsiG = 70;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiH	./Disk.cpp	/^static const unsigned int kMajorBlockScsiH = 71;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiI	./Disk.cpp	/^static const unsigned int kMajorBlockScsiI = 128;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiJ	./Disk.cpp	/^static const unsigned int kMajorBlockScsiJ = 129;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiK	./Disk.cpp	/^static const unsigned int kMajorBlockScsiK = 130;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiL	./Disk.cpp	/^static const unsigned int kMajorBlockScsiL = 131;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiM	./Disk.cpp	/^static const unsigned int kMajorBlockScsiM = 132;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiN	./Disk.cpp	/^static const unsigned int kMajorBlockScsiN = 133;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiO	./Disk.cpp	/^static const unsigned int kMajorBlockScsiO = 134;$/;"	m	namespace:android::vold	file:
+kMajorBlockScsiP	./Disk.cpp	/^static const unsigned int kMajorBlockScsiP = 135;$/;"	m	namespace:android::vold	file:
+kMbr	./Disk.cpp	/^    kMbr,$/;"	m	class:android::vold::Table	file:
+kMinorBlockEMMC	./CommandListener.cpp	/^    static const int kMinorBlockEMMC = -1;$/;"	v	file:
+kMinorBlockEMMC	./CommandListener.cpp	/^    static const unsigned int kMinorBlockEMMC = 0;$/;"	v	file:
+kMinorBlockEMMC	./Disk.cpp	/^    static const int kMinorBlockEMMC = -1;$/;"	m	namespace:android::vold	file:
+kMinorBlockEMMC	./Disk.cpp	/^    static const unsigned int kMinorBlockEMMC = 0;$/;"	m	namespace:android::vold	file:
+kMinorBlockEMMC	./PublicVolume.cpp	/^    static const int kMinorBlockEMMC = -1;$/;"	m	namespace:android::vold	file:
+kMinorBlockEMMC	./PublicVolume.cpp	/^    static const unsigned int kMinorBlockEMMC = 0;$/;"	m	namespace:android::vold	file:
+kMinorBlockEMMC	./VolumeManager.cpp	/^    static const int kMinorBlockEMMC = -1;$/;"	v	file:
+kMinorBlockEMMC	./VolumeManager.cpp	/^    static const unsigned int kMinorBlockEMMC = 0;$/;"	v	file:
+kMinorBlockFon	./Disk.h	/^    static const unsigned int kMinorBlockFon = 1;\/*fat on nand device*\/$/;"	m	class:android::vold::Disk
+kMkfsPath	./fs/Exfat.cpp	/^static const char* kMkfsPath = "\/system\/bin\/mkexfat";$/;"	m	namespace:android::vold::exfat	file:
+kMkfsPath	./fs/Ext4.cpp	/^static const char* kMkfsPath = "\/system\/bin\/make_ext4fs";$/;"	m	namespace:android::vold::ext4	file:
+kMkfsPath	./fs/F2fs.cpp	/^static const char* kMkfsPath = "\/system\/bin\/make_f2fs";$/;"	m	namespace:android::vold::f2fs	file:
+kMkfsPath	./fs/Vfat.cpp	/^static const char* kMkfsPath = "\/system\/bin\/newfs_msdos";$/;"	m	namespace:android::vold::vfat	file:
+kMountPath	./fs/Ntfs.cpp	/^static const char* kMountPath = "\/system\/bin\/ntfs-3g";$/;"	m	namespace:android::vold::ntfs	file:
+kMounted	./VolumeBase.h	/^        kMounted,$/;"	m	class:android::vold::VolumeBase::State
+kMountedReadOnly	./VolumeBase.h	/^        kMountedReadOnly,$/;"	m	class:android::vold::VolumeBase::State
+kMoveFailedInternalError	./MoveTask.cpp	/^static const int kMoveFailedInternalError = -6;$/;"	m	namespace:android::vold	file:
+kMoveSucceeded	./MoveTask.cpp	/^static const int kMoveSucceeded = -100;$/;"	m	namespace:android::vold	file:
+kObb	./VolumeBase.h	/^        kObb,$/;"	m	class:android::vold::VolumeBase::Type
+kPhoneStorage	./VolumeBase.h	/^        kPhoneStorage,$/;"	m	class:android::vold::VolumeBase::StorageType
+kPrimary	./VolumeBase.h	/^        kPrimary = 1 << 0,$/;"	e	enum:android::vold::VolumeBase::MountFlags
+kPrivate	./VolumeBase.h	/^        kPrivate,$/;"	m	class:android::vold::VolumeBase::Type
+kProcFilesystems	./Utils.cpp	/^static const char* kProcFilesystems = "\/proc\/filesystems";$/;"	m	namespace:android::vold	file:
+kPublic	./VolumeBase.h	/^        kPublic = 0,$/;"	m	class:android::vold::VolumeBase::Type
+kRemoved	./VolumeBase.h	/^        kRemoved,$/;"	m	class:android::vold::VolumeBase::State
+kResizefsPath	./fs/Ext4.cpp	/^static const char* kResizefsPath = "\/system\/bin\/resize2fs";$/;"	m	namespace:android::vold::ext4	file:
+kRmPath	./MoveTask.cpp	/^static const char* kRmPath = "\/system\/bin\/rm";$/;"	m	namespace:android::vold	file:
+kSd	./Disk.h	/^        kSd = 1 << 2,$/;"	e	enum:android::vold::Disk::Flags
+kSgdiskPath	./Disk.cpp	/^static const char* kSgdiskPath = "\/system\/bin\/sgdisk";$/;"	m	namespace:android::vold	file:
+kSgdiskToken	./Disk.cpp	/^static const char* kSgdiskToken = " \\t\\n";$/;"	m	namespace:android::vold	file:
+kShared	./VolumeBase.h	/^        kShared,$/;"	m	class:android::vold::VolumeBase::State
+kSysfsMmcMaxMinors	./Disk.cpp	/^static const char* kSysfsMmcMaxMinors = "\/sys\/module\/mmcblk\/parameters\/perdev_minors";$/;"	m	namespace:android::vold	file:
+kToken	./PublicVolume.cpp	/^static const char* kToken = "\/";$/;"	m	namespace:android::vold	file:
+kUnknown	./Disk.cpp	/^    kUnknown,$/;"	m	class:android::vold::Table	file:
+kUnmountable	./VolumeBase.h	/^        kUnmountable,$/;"	m	class:android::vold::VolumeBase::State
+kUnmounted	./VolumeBase.h	/^        kUnmounted = 0,$/;"	m	class:android::vold::VolumeBase::State
+kUsb	./Disk.h	/^        kUsb = 1 << 3,$/;"	e	enum:android::vold::Disk::Flags
+kUserMountPath	./VolumeManager.cpp	/^static const char* kUserMountPath = "\/mnt\/user";$/;"	v	file:
+kVisible	./VolumeBase.h	/^        kVisible = 1 << 1,$/;"	e	enum:android::vold::VolumeBase::MountFlags
+kWakeLock	./MoveTask.cpp	/^static const char* kWakeLock = "MoveTask";$/;"	m	namespace:android::vold	file:
+kWakeLock	./TrimTask.cpp	/^static const char* kWakeLock = "TrimTask";$/;"	m	namespace:android::vold	file:
+kdf_func	./cryptfs.h	/^  typedef int (*kdf_func)(const char *passwd, const unsigned char *salt,$/;"	t
+kdf_type	./Ext4Crypt.cpp	/^        const char* kdf_type = "kdf_type";$/;"	m	namespace:__anon2::tag	file:
+kdf_type	./cryptfs.h	/^  __le8  kdf_type; \/* The key derivation function used. *\/$/;"	m	struct:crypt_mnt_ftr
+key	./cryptfs.h	/^  char key[PROPERTY_KEY_MAX];$/;"	m	struct:crypt_persist_entry
+key_length	./Ext4Crypt.cpp	/^    const int key_length = 128;$/;"	m	namespace:__anon2	file:
+keymaster_blob	./Ext4Crypt.cpp	/^        const char* keymaster_blob = "keymaster_blob";$/;"	m	namespace:__anon2::tag	file:
+keymaster_blob	./cryptfs.h	/^  __le8 keymaster_blob[KEYMASTER_BLOB_SIZE];$/;"	m	struct:crypt_mnt_ftr
+keymaster_blob_size	./cryptfs.h	/^  __le32 keymaster_blob_size;$/;"	m	struct:crypt_mnt_ftr
+keymaster_check_compatibility	./cryptfs.c	/^static int keymaster_check_compatibility()$/;"	f	file:
+keymaster_create_key	./cryptfs.c	/^static int keymaster_create_key(struct crypt_mnt_ftr *ftr)$/;"	f	file:
+keymaster_init	./cryptfs.c	/^static int keymaster_init(keymaster0_device_t **keymaster0_dev,$/;"	f	file:
+keymaster_sign_object	./cryptfs.c	/^static int keymaster_sign_object(struct crypt_mnt_ftr *ftr,$/;"	f	file:
+keys	./Ext4Crypt.cpp	/^    struct keys {$/;"	s	namespace:__anon2	file:
+keysize	./cryptfs.h	/^  __le32 keysize;       \/* in bytes *\/$/;"	m	struct:crypt_mnt_ftr
+killProcessesWithOpenFiles	./Process.cpp	/^void Process::killProcessesWithOpenFiles(const char *path, int signal) {$/;"	f	class:Process
+last_written_sector	./cryptfs.c	/^    off64_t last_written_sector;$/;"	m	struct:encryptGroupsData	file:
+line	./bench/benchgen.py	/^            line = re_event.match(line)$/;"	v
+linkPrimary	./VolumeManager.cpp	/^int VolumeManager::linkPrimary(userid_t userId) {$/;"	f	class:VolumeManager
+listAsecsInDirectory	./CommandListener.cpp	/^void CommandListener::AsecCmd::listAsecsInDirectory(SocketClient *cli, const char *directory) {$/;"	f	class:CommandListener::AsecCmd
+listMountedObbs	./VolumeManager.cpp	/^int VolumeManager::listMountedObbs(SocketClient* cli) {$/;"	f	class:VolumeManager
+listVolumes	./Disk.cpp	/^void Disk::listVolumes(VolumeBase::Type type, std::list<std::string>& list) {$/;"	f	class:android::vold::Disk
+listVolumes	./VolumeBase.cpp	/^void VolumeBase::listVolumes(VolumeBase::Type type, std::list<std::string>& list) {$/;"	f	class:android::vold::VolumeBase
+listVolumes	./VolumeManager.cpp	/^void VolumeManager::listVolumes(android::vold::VolumeBase::Type type,$/;"	f	class:VolumeManager
+load_crypto_mapping_table	./cryptfs.c	/^static int load_crypto_mapping_table(struct crypt_mnt_ftr *crypt_ftr,$/;"	f	file:
+load_persistent_data	./cryptfs.c	/^static int load_persistent_data(void)$/;"	f	file:
+log_progress	./cryptfs.c	/^static void log_progress(struct encryptGroupsData const* data, bool completed)$/;"	f	file:
+log_progress_f2fs	./cryptfs.c	/^static void log_progress_f2fs(u64 block, bool completed)$/;"	f	file:
+lookupActive	./Devmapper.cpp	/^int Devmapper::lookupActive(const char *name, char *ubuffer, size_t len) {$/;"	f	class:Devmapper
+lookupActive	./Loop.cpp	/^int Loop::lookupActive(const char *id, char *buffer, size_t len) {$/;"	f	class:Loop
+lookupInfo	./Loop.cpp	/^int Loop::lookupInfo(const char *loopDevice, struct asec_superblock *sb, unsigned long *nr_sec) {$/;"	f	class:Loop
+mActiveContainers	./VolumeManager.h	/^    AsecIdCollection      *mActiveContainers;$/;"	m	class:VolumeManager
+mAddedUsers	./VolumeManager.h	/^    std::unordered_map<userid_t, int> mAddedUsers;$/;"	m	class:VolumeManager
+mBroadcaster	./NetlinkManager.h	/^    SocketListener       *mBroadcaster;$/;"	m	class:NetlinkManager
+mBroadcaster	./VolumeManager.h	/^    SocketListener        *mBroadcaster;$/;"	m	class:VolumeManager
+mCreated	./Disk.h	/^    bool mCreated;$/;"	m	class:android::vold::Disk
+mCreated	./VolumeBase.h	/^    bool mCreated;$/;"	m	class:android::vold::VolumeBase
+mDebug	./VolumeManager.h	/^    bool                   mDebug;$/;"	m	class:VolumeManager
+mDevPath	./Disk.h	/^    std::string mDevPath;$/;"	m	class:android::vold::Disk
+mDevPath	./PublicVolume.h	/^    std::string mDevPath;$/;"	m	class:android::vold::PublicVolume
+mDevice	./Disk.h	/^    dev_t mDevice;$/;"	m	class:android::vold::Disk
+mDevice	./PublicVolume.h	/^    dev_t mDevice;$/;"	m	class:android::vold::PublicVolume
+mDiskId	./VolumeBase.h	/^    std::string mDiskId;$/;"	m	class:android::vold::VolumeBase
+mDiskSources	./VolumeManager.h	/^    std::list<std::shared_ptr<DiskSource>> mDiskSources;$/;"	m	class:VolumeManager
+mDisks	./VolumeManager.h	/^    std::list<std::shared_ptr<android::vold::Disk>> mDisks;$/;"	m	class:VolumeManager
+mDmDevPath	./PrivateVolume.h	/^    std::string mDmDevPath;$/;"	m	class:android::vold::PrivateVolume
+mEventPath	./Disk.h	/^    std::string mEventPath;$/;"	m	class:android::vold::Disk
+mFlags	./Disk.h	/^    int mFlags;$/;"	m	class:android::vold::Disk
+mFlags	./TrimTask.h	/^    int mFlags;$/;"	m	class:android::vold::TrimTask
+mFlags	./VolumeManager.h	/^        int mFlags;$/;"	m	class:VolumeManager::DiskSource
+mFrom	./MoveTask.h	/^    std::shared_ptr<VolumeBase> mFrom;$/;"	m	class:android::vold::MoveTask
+mFsLabel	./PrivateVolume.h	/^    std::string mFsLabel;$/;"	m	class:android::vold::PrivateVolume
+mFsLabel	./PublicVolume.h	/^    std::string mFsLabel;$/;"	m	class:android::vold::PublicVolume
+mFsType	./PrivateVolume.h	/^    std::string mFsType;$/;"	m	class:android::vold::PrivateVolume
+mFsType	./PublicVolume.h	/^    std::string mFsType;$/;"	m	class:android::vold::PublicVolume
+mFsUuid	./PrivateVolume.h	/^    std::string mFsUuid;$/;"	m	class:android::vold::PrivateVolume
+mFsUuid	./PublicVolume.h	/^    std::string mFsUuid;$/;"	m	class:android::vold::PublicVolume
+mFuseDefault	./EmulatedVolume.h	/^    std::string mFuseDefault;$/;"	m	class:android::vold::EmulatedVolume
+mFuseDefault	./PublicVolume.h	/^    std::string mFuseDefault;$/;"	m	class:android::vold::PublicVolume
+mFusePid	./EmulatedVolume.h	/^    pid_t mFusePid;$/;"	m	class:android::vold::EmulatedVolume
+mFusePid	./PublicVolume.h	/^    pid_t mFusePid;$/;"	m	class:android::vold::PublicVolume
+mFuseRead	./EmulatedVolume.h	/^    std::string mFuseRead;$/;"	m	class:android::vold::EmulatedVolume
+mFuseRead	./PublicVolume.h	/^    std::string mFuseRead;$/;"	m	class:android::vold::PublicVolume
+mFuseWrite	./EmulatedVolume.h	/^    std::string mFuseWrite;$/;"	m	class:android::vold::EmulatedVolume
+mFuseWrite	./PublicVolume.h	/^    std::string mFuseWrite;$/;"	m	class:android::vold::PublicVolume
+mHandleUevent	./VolumeManager.h	/^    bool                   mHandleUevent;$/;"	m	class:VolumeManager
+mHandler	./NetlinkManager.h	/^    NetlinkHandler       *mHandler;$/;"	m	class:NetlinkManager
+mId	./Disk.h	/^    std::string mId;$/;"	m	class:android::vold::Disk
+mId	./VolumeBase.h	/^    std::string mId;$/;"	m	class:android::vold::VolumeBase
+mInternalEmulated	./VolumeManager.h	/^    std::shared_ptr<android::vold::VolumeBase> mInternalEmulated;$/;"	m	class:VolumeManager
+mInternalPath	./VolumeBase.h	/^    std::string mInternalPath;$/;"	m	class:android::vold::VolumeBase
+mJustPartitioned	./Disk.h	/^    bool mJustPartitioned;$/;"	m	class:android::vold::Disk
+mKeyRaw	./PrivateVolume.h	/^    std::string mKeyRaw;$/;"	m	class:android::vold::PrivateVolume
+mLabel	./Disk.h	/^    std::string mLabel;$/;"	m	class:android::vold::Disk
+mLabel	./EmulatedVolume.h	/^    std::string mLabel;$/;"	m	class:android::vold::EmulatedVolume
+mLock	./VolumeManager.h	/^    std::mutex mLock;$/;"	m	class:VolumeManager
+mMountFlags	./VolumeBase.h	/^    int mMountFlags;$/;"	m	class:android::vold::VolumeBase
+mMountUserId	./VolumeBase.h	/^    userid_t mMountUserId;$/;"	m	class:android::vold::VolumeBase
+mNickname	./Disk.h	/^    std::string mNickname;$/;"	m	class:android::vold::Disk
+mNickname	./VolumeManager.h	/^        std::string mNickname;$/;"	m	class:VolumeManager::DiskSource
+mPartGuid	./VolumeBase.h	/^    std::string mPartGuid;$/;"	m	class:android::vold::VolumeBase
+mPath	./PrivateVolume.h	/^    std::string mPath;$/;"	m	class:android::vold::PrivateVolume
+mPath	./VolumeBase.h	/^    std::string mPath;$/;"	m	class:android::vold::VolumeBase
+mPaths	./TrimTask.h	/^    std::list<std::string> mPaths;$/;"	m	class:android::vold::TrimTask
+mPrimary	./VolumeManager.h	/^    std::shared_ptr<android::vold::VolumeBase> mPrimary;$/;"	m	class:VolumeManager
+mRawDevPath	./PrivateVolume.h	/^    std::string mRawDevPath;$/;"	m	class:android::vold::PrivateVolume
+mRawDevice	./PrivateVolume.h	/^    dev_t mRawDevice;$/;"	m	class:android::vold::PrivateVolume
+mRawPath	./EmulatedVolume.h	/^    std::string mRawPath;$/;"	m	class:android::vold::EmulatedVolume
+mRawPath	./PublicVolume.h	/^    std::string mRawPath;$/;"	m	class:android::vold::PublicVolume
+mSavedDirtyRatio	./VolumeManager.h	/^    int mSavedDirtyRatio;$/;"	m	class:VolumeManager
+mShared	./Disk.h	/^    bool mShared;$/;"	m	class:android::vold::Disk
+mSilent	./VolumeBase.h	/^    bool mSilent;$/;"	m	class:android::vold::VolumeBase
+mSize	./Disk.h	/^    uint64_t mSize;$/;"	m	class:android::vold::Disk
+mSkipDiskChangedUevent	./Disk.h	/^    bool mSkipDiskChangedUevent;$/;"	m	class:android::vold::Disk
+mSock	./NetlinkManager.h	/^    int                  mSock;$/;"	m	class:NetlinkManager
+mStartedUsers	./VolumeManager.h	/^    std::unordered_set<userid_t> mStartedUsers;$/;"	m	class:VolumeManager
+mState	./Bicr.h	/^    int mState;$/;"	m	class:Bicr
+mState	./VolumeBase.h	/^    State mState;$/;"	m	class:android::vold::VolumeBase
+mStorageType	./VolumeBase.h	/^    StorageType mStorageType;$/;"	m	class:android::vold::VolumeBase
+mSysPath	./Disk.h	/^    std::string mSysPath;$/;"	m	class:android::vold::Disk
+mSysPattern	./VolumeManager.h	/^        std::string mSysPattern;$/;"	m	class:VolumeManager::DiskSource
+mThread	./MoveTask.h	/^    std::thread mThread;$/;"	m	class:android::vold::MoveTask
+mThread	./TrimTask.h	/^    std::thread mThread;$/;"	m	class:android::vold::TrimTask
+mTo	./MoveTask.h	/^    std::shared_ptr<VolumeBase> mTo;$/;"	m	class:android::vold::MoveTask
+mType	./VolumeBase.h	/^    Type mType;$/;"	m	class:android::vold::VolumeBase
+mUmsDirtyRatio	./VolumeManager.h	/^    int mUmsDirtyRatio;$/;"	m	class:VolumeManager
+mUmsFilePath	./PublicVolume.h	/^    char mUmsFilePath[PATH_MAX];$/;"	m	class:android::vold::PublicVolume
+mUmsSharingCount	./VolumeManager.h	/^    int mUmsSharingCount;$/;"	m	class:VolumeManager
+mVolumes	./Disk.h	/^    std::vector<std::shared_ptr<VolumeBase>> mVolumes;$/;"	m	class:android::vold::Disk
+mVolumes	./VolumeBase.h	/^    std::list<std::shared_ptr<VolumeBase>> mVolumes;$/;"	m	class:android::vold::VolumeBase
+magic	./Asec.h	/^    unsigned int magic;$/;"	m	struct:asec_superblock
+magic	./Ext4Crypt.cpp	/^        const char* magic = "magic";$/;"	m	namespace:__anon2::tag	file:
+magic	./cryptfs.h	/^  __le32 magic;         \/* See above *\/$/;"	m	struct:crypt_mnt_ftr
+main	./main.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	./vdc.c	/^int main(int argc, char **argv) {$/;"	f
+major_version	./Ext4Crypt.cpp	/^        const char* major_version = "major_version";$/;"	m	namespace:__anon2::tag	file:
+major_version	./cryptfs.h	/^  __le16 major_version;$/;"	m	struct:crypt_mnt_ftr
+master_key	./Ext4Crypt.cpp	/^        const char* master_key = "master_key";$/;"	m	namespace:__anon2::tag	file:
+master_key	./Ext4Crypt.cpp	/^        std::string master_key;$/;"	m	struct:__anon2::keys	file:
+master_key	./cryptfs.h	/^  unsigned char master_key[MAX_KEY_LEN]; \/* The encrypted key for decrypting the filesystem *\/$/;"	m	struct:crypt_mnt_ftr
+master_key_saved	./cryptfs.c	/^static int  master_key_saved = 0;$/;"	v	file:
+match_multi_entry	./cryptfs.c	/^static int match_multi_entry(const char *key, const char *field, unsigned index) {$/;"	f	file:
+matches	./VolumeManager.h	/^        bool matches(const std::string& sysPath) {$/;"	f	class:VolumeManager::DiskSource
+me	./cryptfs.c	/^char *me = "cryptfs";$/;"	v
+min	./hash.h	45;"	d
+minor_version	./Ext4Crypt.cpp	/^        const char* minor_version = "minor_version";$/;"	m	namespace:__anon2::tag	file:
+minor_version	./cryptfs.h	/^  __le16 minor_version;$/;"	m	struct:crypt_mnt_ftr
+mkdirs	./VolumeManager.cpp	/^int VolumeManager::mkdirs(char* path) {$/;"	f	class:VolumeManager
+mode	./Ext4Crypt.cpp	/^        uint32_t mode;$/;"	m	struct:__anon2::ext4_encryption_key	file:
+mount	./VolumeBase.cpp	/^status_t VolumeBase::mount() {$/;"	f	class:android::vold::VolumeBase
+mountAsec	./VolumeManager.cpp	/^int VolumeManager::mountAsec(const char *id, const char *key, int ownerUid, bool readOnly) {$/;"	f	class:VolumeManager
+mountObb	./VolumeManager.cpp	/^int VolumeManager::mountObb(const char *img, const char *key, int ownerGid) {$/;"	f	class:VolumeManager
+mountallVolumes	./VolumeManager.cpp	/^void VolumeManager::mountallVolumes() {$/;"	f	class:VolumeManager
+new_pct	./cryptfs.c	/^    off64_t one_pct, cur_pct, new_pct;$/;"	m	struct:encryptGroupsData	file:
+notifyEvent	./Disk.cpp	/^void Disk::notifyEvent(int event) {$/;"	f	class:android::vold::Disk
+notifyEvent	./Disk.cpp	/^void Disk::notifyEvent(int event, const std::string& value) {$/;"	f	class:android::vold::Disk
+notifyEvent	./VolumeBase.cpp	/^void VolumeBase::notifyEvent(int event) {$/;"	f	class:android::vold::VolumeBase
+notifyEvent	./VolumeBase.cpp	/^void VolumeBase::notifyEvent(int event, const std::string& value) {$/;"	f	class:android::vold::VolumeBase
+notifyProgress	./MoveTask.cpp	/^static void notifyProgress(int progress) {$/;"	f	namespace:android::vold
+notifyResult	./Benchmark.cpp	/^static void notifyResult(const std::string& path, int64_t create_d,$/;"	f	namespace:android::vold
+notifyResult	./TrimTask.cpp	/^static void notifyResult(const std::string& path, int64_t bytes, int64_t delta) {$/;"	f	namespace:android::vold
+nread	./bench/benchgen.py	/^    nread = 0$/;"	v
+nsync	./bench/benchgen.py	/^    nsync = 0$/;"	v
+ntfs	./fs/Ntfs.cpp	/^namespace ntfs {$/;"	n	namespace:android::vold	file:
+ntfs	./fs/Ntfs.h	/^namespace ntfs {$/;"	n	namespace:android::vold
+numblocks	./cryptfs.c	/^    off64_t numblocks;$/;"	m	struct:encryptGroupsData	file:
+nwrite	./bench/benchgen.py	/^    nwrite = 0$/;"	v
+offset	./bench/benchgen.py	/^                offset = int(e.args[5], 0)$/;"	v
+offset	./cryptfs.c	/^    off64_t offset;$/;"	m	struct:encryptGroupsData	file:
+onEvent	./NetlinkHandler.cpp	/^void NetlinkHandler::onEvent(NetlinkEvent *evt) {$/;"	f	class:NetlinkHandler
+onUserAdded	./VolumeManager.cpp	/^int VolumeManager::onUserAdded(userid_t userId, int userSerialNumber) {$/;"	f	class:VolumeManager
+onUserRemoved	./VolumeManager.cpp	/^int VolumeManager::onUserRemoved(userid_t userId) {$/;"	f	class:VolumeManager
+onUserStarted	./VolumeManager.cpp	/^int VolumeManager::onUserStarted(userid_t userId) {$/;"	f	class:VolumeManager
+onUserStopped	./VolumeManager.cpp	/^int VolumeManager::onUserStopped(userid_t userId) {$/;"	f	class:VolumeManager
+one_pct	./cryptfs.c	/^    off64_t one_pct, cur_pct, new_pct;$/;"	m	struct:encryptGroupsData	file:
+override	./EmulatedVolume.h	/^    status_t doMount() override;$/;"	m	class:android::vold::EmulatedVolume
+override	./EmulatedVolume.h	/^    status_t doUnmount() override;$/;"	m	class:android::vold::EmulatedVolume
+override	./PrivateVolume.h	/^    status_t doCreate() override;$/;"	m	class:android::vold::PrivateVolume
+override	./PrivateVolume.h	/^    status_t doDestroy() override;$/;"	m	class:android::vold::PrivateVolume
+override	./PrivateVolume.h	/^    status_t doFormat(const std::string& fsType) override;$/;"	m	class:android::vold::PrivateVolume
+override	./PrivateVolume.h	/^    status_t doMount() override;$/;"	m	class:android::vold::PrivateVolume
+override	./PrivateVolume.h	/^    status_t doUnmount() override;$/;"	m	class:android::vold::PrivateVolume
+override	./PublicVolume.h	/^    status_t doCreate() override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doDestroy() override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doFormat(const std::string& fsType) override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doMount() override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doShare() override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doUnmount() override;$/;"	m	class:android::vold::PublicVolume
+override	./PublicVolume.h	/^    status_t doUnshare() override;$/;"	m	class:android::vold::PublicVolume
+p_factor	./Ext4Crypt.cpp	/^        const char* p_factor = "p_factor";$/;"	m	namespace:__anon2::tag	file:
+p_factor	./cryptfs.h	/^  __le8  p_factor; \/* (1 << p) *\/$/;"	m	struct:crypt_mnt_ftr
+parse_args	./bench/benchgen.py	/^def parse_args(s):$/;"	f
+parse_args	./main.cpp	/^static void parse_args(int argc, char** argv) {$/;"	f	file:
+partitionMixed	./Disk.cpp	/^status_t Disk::partitionMixed(int8_t ratio) {$/;"	f	class:android::vold::Disk
+partitionPrivate	./Disk.cpp	/^status_t Disk::partitionPrivate() {$/;"	f	class:android::vold::Disk
+partitionPublic	./Disk.cpp	/^status_t Disk::partitionPublic() {$/;"	f	class:android::vold::Disk
+password	./Ext4Crypt.cpp	/^        std::string password;$/;"	m	struct:__anon2::keys	file:
+password	./cryptfs.c	/^static char* password = 0;$/;"	v	file:
+password_expiry_time	./cryptfs.c	/^static int password_expiry_time = 0;$/;"	v	file:
+password_max_age_seconds	./Ext4Crypt.cpp	/^    const int password_max_age_seconds = 60;$/;"	m	namespace:__anon2	file:
+password_max_age_seconds	./cryptfs.c	/^static const int password_max_age_seconds = 60;$/;"	v	file:
+pathMatchesMountPoint	./Process.cpp	/^int Process::pathMatchesMountPoint(const char* path, const char* mountPoint) {$/;"	f	class:Process
+pbkdf2	./cryptfs.c	/^static int pbkdf2(const char *passwd, const unsigned char *salt,$/;"	f	file:
+persist_count_keys	./cryptfs.c	/^static int persist_count_keys(const char *fieldname)$/;"	f	file:
+persist_data	./cryptfs.c	/^static struct crypt_persist_data *persist_data = NULL;$/;"	v	typeref:struct:crypt_persist_data	file:
+persist_data_offset	./cryptfs.h	/^  __le64 persist_data_offset[2];  \/* Absolute offset to both copies of crypt_persist_data$/;"	m	struct:crypt_mnt_ftr
+persist_data_size	./cryptfs.h	/^  __le32 persist_data_size;       \/* The number of bytes allocated to each copy of the$/;"	m	struct:crypt_mnt_ftr
+persist_del_keys	./cryptfs.c	/^static int persist_del_keys(const char *fieldname, unsigned index)$/;"	f	file:
+persist_entry	./cryptfs.h	/^  struct crypt_persist_entry persist_entry[0];$/;"	m	struct:crypt_persist_data	typeref:struct:crypt_persist_data::crypt_persist_entry
+persist_get_key	./cryptfs.c	/^static int persist_get_key(const char *fieldname, char *value)$/;"	f	file:
+persist_get_max_entries	./cryptfs.c	/^static unsigned int persist_get_max_entries(int encrypted) {$/;"	f	file:
+persist_magic	./cryptfs.h	/^  __le32 persist_magic;$/;"	m	struct:crypt_persist_data
+persist_set_key	./cryptfs.c	/^static int persist_set_key(const char *fieldname, const char *value, int encrypted)$/;"	f	file:
+persist_spare	./cryptfs.h	/^  __le32 persist_spare[30];$/;"	m	struct:crypt_persist_data
+persist_valid_entries	./cryptfs.h	/^  __le32 persist_valid_entries;$/;"	m	struct:crypt_persist_data
+prep_data_fs	./cryptfs.c	/^static int prep_data_fs(void)$/;"	f	file:
+process_config	./main.cpp	/^static int process_config(VolumeManager *vm) {$/;"	f	file:
+pushBackContents	./MoveTask.cpp	/^static status_t pushBackContents(const std::string& path, std::vector<std::string>& cmd) {$/;"	f	namespace:android::vold
+put_crypt_ftr_and_key	./Ext4Crypt.cpp	/^static int put_crypt_ftr_and_key(const crypt_mnt_ftr& crypt_ftr,$/;"	f	file:
+put_crypt_ftr_and_key	./cryptfs.c	/^static int put_crypt_ftr_and_key(struct crypt_mnt_ftr *crypt_ftr)$/;"	f	file:
+r_factor	./Ext4Crypt.cpp	/^        const char* r_factor = "r_factor";$/;"	m	namespace:__anon2::tag	file:
+r_factor	./cryptfs.h	/^  __le8  r_factor; \/* (1 << r) *\/$/;"	m	struct:crypt_mnt_ftr
+raw	./Ext4Crypt.cpp	/^        char raw[EXT4_MAX_KEY_SIZE];$/;"	m	struct:__anon2::ext4_encryption_key	file:
+re_event	./bench/benchgen.py	/^re_event = re.compile(r"^([\\d\\.]+) (.+?)\\((.+?)\\) = (.+?)$")$/;"	v
+readMetadata	./Disk.cpp	/^status_t Disk::readMetadata() {$/;"	f	class:android::vold::Disk
+readMetadata	./PrivateVolume.cpp	/^status_t PrivateVolume::readMetadata() {$/;"	f	class:android::vold::PrivateVolume
+readMetadata	./PublicVolume.cpp	/^status_t PublicVolume::readMetadata() {$/;"	f	class:android::vold::PublicVolume
+readMetadata	./Utils.cpp	/^static status_t readMetadata(const std::string& path, std::string& fsType,$/;"	f	namespace:android::vold
+readPartitions	./Disk.cpp	/^status_t Disk::readPartitions() {$/;"	f	class:android::vold::Disk
+readSymLink	./Process.cpp	/^int Process::readSymLink(const char *path, char *link, size_t max) {$/;"	f	class:Process
+real_blkdev	./cryptfs.c	/^    char* real_blkdev, * crypto_blkdev;$/;"	m	struct:encryptGroupsData	file:
+realfd	./cryptfs.c	/^    int realfd;$/;"	m	struct:encryptGroupsData	file:
+reboot	./cryptfs.c	/^enum RebootType {reboot, recovery, shutdown};$/;"	e	enum:RebootType	file:
+recovery	./cryptfs.c	/^enum RebootType {reboot, recovery, shutdown};$/;"	e	enum:RebootType	file:
+remaining_time	./cryptfs.c	/^    int remaining_time;$/;"	m	struct:encryptGroupsData	file:
+remountUid	./VolumeManager.cpp	/^int VolumeManager::remountUid(uid_t uid, const std::string& mode) {$/;"	f	class:VolumeManager
+removeVolume	./VolumeBase.cpp	/^void VolumeBase::removeVolume(const std::shared_ptr<VolumeBase>& volume) {$/;"	f	class:android::vold::VolumeBase
+renameAsec	./VolumeManager.cpp	/^int VolumeManager::renameAsec(const char *id1, const char *id2) {$/;"	f	class:VolumeManager
+reset	./VolumeManager.cpp	/^int VolumeManager::reset() {$/;"	f	class:VolumeManager
+resizeAsec	./VolumeManager.cpp	/^int VolumeManager::resizeAsec(const char *id, unsigned numSectors, const char *key) {$/;"	f	class:VolumeManager
+resizeImageFile	./Loop.cpp	/^int Loop::resizeImageFile(const char *file, unsigned int numSectors) {$/;"	f	class:Loop
+run	./MoveTask.cpp	/^void MoveTask::run() {$/;"	f	class:android::vold::MoveTask
+run	./TrimTask.cpp	/^void TrimTask::run() {$/;"	f	class:android::vold::TrimTask
+runCommand	./CommandListener.cpp	/^int CommandListener::AsecCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::AsecCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::CDROMCmd::runCommand(SocketClient *cli, int argc, char **argv) {$/;"	f	class:CommandListener::CDROMCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::DumpCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::DumpCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::FstrimCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::FstrimCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::ObbCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::ObbCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::StorageCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::StorageCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::USBCmd::runCommand(SocketClient *cli, int argc, char **argv) {$/;"	f	class:CommandListener::USBCmd
+runCommand	./CommandListener.cpp	/^int CommandListener::VolumeCmd::runCommand(SocketClient *cli,$/;"	f	class:CommandListener::VolumeCmd
+runCommand	./CryptCommandListener.cpp	/^int CryptCommandListener::CryptfsCmd::runCommand(SocketClient *cli,$/;"	f	class:CryptCommandListener::CryptfsCmd
+sBlkidContext	./Utils.cpp	/^security_context_t sBlkidContext = nullptr;$/;"	m	namespace:android::vold	file:
+sBlkidUntrustedContext	./Utils.cpp	/^security_context_t sBlkidUntrustedContext = nullptr;$/;"	m	namespace:android::vold	file:
+sFsckContext	./Utils.cpp	/^security_context_t sFsckContext = nullptr;$/;"	m	namespace:android::vold	file:
+sFsckUntrustedContext	./Utils.cpp	/^security_context_t sFsckUntrustedContext = nullptr;$/;"	m	namespace:android::vold	file:
+sInstance	./Bicr.cpp	/^Bicr *Bicr::sInstance = NULL;$/;"	m	class:Bicr	file:
+sInstance	./Bicr.h	/^    static Bicr *sInstance;$/;"	m	class:Bicr
+sInstance	./NetlinkManager.cpp	/^NetlinkManager *NetlinkManager::sInstance = NULL;$/;"	m	class:NetlinkManager	file:
+sInstance	./NetlinkManager.h	/^    static NetlinkManager *sInstance;$/;"	m	class:NetlinkManager
+sInstance	./VolumeManager.cpp	/^VolumeManager *VolumeManager::sInstance = NULL;$/;"	m	class:VolumeManager	file:
+sInstance	./VolumeManager.h	/^    static VolumeManager *sInstance;$/;"	m	class:VolumeManager
+s_key_store	./Ext4Crypt.cpp	/^    std::map<std::string, keys> s_key_store;$/;"	m	namespace:__anon2	file:
+salt	./Ext4Crypt.cpp	/^        const char* salt = "salt";$/;"	m	namespace:__anon2::tag	file:
+salt	./cryptfs.h	/^  unsigned char salt[SALT_LEN];   \/* The salt used for this encryption *\/$/;"	m	struct:crypt_mnt_ftr
+sane_readlinkat	./VolumeManager.cpp	/^static int sane_readlinkat(int dirfd, const char* path, char* buf, size_t bufsiz) {$/;"	f	file:
+save_persistent_data	./cryptfs.c	/^static int save_persistent_data(void)$/;"	f	file:
+saved_master_key	./cryptfs.c	/^static unsigned char saved_master_key[KEY_LEN_BYTES];$/;"	v	file:
+saved_mount_point	./cryptfs.c	/^static char *saved_mount_point;$/;"	v	file:
+scrypt	./cryptfs.c	/^static int scrypt(const char *passwd, const unsigned char *salt,$/;"	f	file:
+scrypt_keymaster	./cryptfs.c	/^static int scrypt_keymaster(const char *passwd, const unsigned char *salt,$/;"	f	file:
+scrypted_intermediate_key	./Ext4Crypt.cpp	/^        const char* scrypted_intermediate_key = "scrypted_intermediate_key";$/;"	m	namespace:__anon2::tag	file:
+scrypted_intermediate_key	./cryptfs.h	/^  unsigned char scrypted_intermediate_key[SCRYPT_LEN];$/;"	m	struct:crypt_mnt_ftr
+sehandle	./main.cpp	/^struct selabel_handle *sehandle;$/;"	v	typeref:struct:selabel_handle
+sendGenericOkFail	./CommandListener.cpp	/^int CommandListener::sendGenericOkFail(SocketClient *cli, int cond) {$/;"	f	class:CommandListener
+sendGenericOkFail	./CryptCommandListener.cpp	/^int CryptCommandListener::sendGenericOkFail(SocketClient *cli, int cond) {$/;"	f	class:CryptCommandListener
+setBroadcaster	./NetlinkManager.h	/^    void setBroadcaster(SocketListener *sl) { mBroadcaster = sl; }$/;"	f	class:NetlinkManager
+setBroadcaster	./VolumeManager.h	/^    void setBroadcaster(SocketListener *sl) { mBroadcaster = sl; }$/;"	f	class:VolumeManager
+setDebug	./VolumeManager.cpp	/^int VolumeManager::setDebug(bool enable) {$/;"	f	class:VolumeManager
+setDiskId	./VolumeBase.cpp	/^status_t VolumeBase::setDiskId(const std::string& diskId) {$/;"	f	class:android::vold::VolumeBase
+setId	./VolumeBase.cpp	/^status_t VolumeBase::setId(const std::string& id) {$/;"	f	class:android::vold::VolumeBase
+setInternalPath	./VolumeBase.cpp	/^status_t VolumeBase::setInternalPath(const std::string& internalPath) {$/;"	f	class:android::vold::VolumeBase
+setMountFlags	./VolumeBase.cpp	/^status_t VolumeBase::setMountFlags(int mountFlags) {$/;"	f	class:android::vold::VolumeBase
+setMountUserId	./VolumeBase.cpp	/^status_t VolumeBase::setMountUserId(userid_t mountUserId) {$/;"	f	class:android::vold::VolumeBase
+setPartGuid	./VolumeBase.cpp	/^status_t VolumeBase::setPartGuid(const std::string& partGuid) {$/;"	f	class:android::vold::VolumeBase
+setPath	./VolumeBase.cpp	/^status_t VolumeBase::setPath(const std::string& path) {$/;"	f	class:android::vold::VolumeBase
+setPrimary	./VolumeManager.cpp	/^int VolumeManager::setPrimary(const std::shared_ptr<android::vold::VolumeBase>& vol) {$/;"	f	class:VolumeManager
+setSilent	./VolumeBase.cpp	/^status_t VolumeBase::setSilent(bool silent) {$/;"	f	class:android::vold::VolumeBase
+setState	./VolumeBase.cpp	/^void VolumeBase::setState(State state) {$/;"	f	class:android::vold::VolumeBase
+setStorageType	./VolumeBase.cpp	/^void VolumeBase::setStorageType(const StorageType type) {$/;"	f	class:android::vold::VolumeBase
+setupDevMapperDevice	./VolumeManager.cpp	/^static int setupDevMapperDevice(char* buffer, size_t len, const char* loopDevice, const char* asecFileName, const char* key, const char* idHash , int numImgSectors, bool* createdDMDevice, bool debug) {$/;"	f	file:
+setupLoopDevice	./VolumeManager.cpp	/^static int setupLoopDevice(char* buffer, size_t len, const char* asecFileName, const char* idHash, bool debug) {$/;"	f	file:
+share	./VolumeBase.cpp	/^status_t VolumeBase::share() {$/;"	f	class:android::vold::VolumeBase
+shareCdRom	./Bicr.cpp	/^int Bicr::shareCdRom() {$/;"	f	class:Bicr
+shareEnabled	./VolumeManager.cpp	/^int VolumeManager::shareEnabled(const std::string& id, const char *method, bool *enabled) {$/;"	f	class:VolumeManager
+shareVolume	./VolumeManager.cpp	/^int VolumeManager::shareVolume(const std::string& id, const char *method) {$/;"	f	class:VolumeManager
+shutdown	./VolumeManager.cpp	/^int VolumeManager::shutdown() {$/;"	f	class:VolumeManager
+shutdown	./cryptfs.c	/^enum RebootType {reboot, recovery, shutdown};$/;"	e	enum:RebootType	file:
+size	./Ext4Crypt.cpp	/^        uint32_t size;$/;"	m	struct:__anon2::ext4_encryption_key	file:
+size	./bench/benchgen.py	/^size = sum([ f.size for f in files.values() ])$/;"	v
+spare2	./cryptfs.h	/^  __le32 spare2;        \/* ignored *\/$/;"	m	struct:crypt_mnt_ftr
+start	./MoveTask.cpp	/^void MoveTask::start() {$/;"	f	class:android::vold::MoveTask
+start	./NetlinkHandler.cpp	/^int NetlinkHandler::start() {$/;"	f	class:NetlinkHandler
+start	./NetlinkManager.cpp	/^int NetlinkManager::start() {$/;"	f	class:NetlinkManager
+start	./TrimTask.cpp	/^void TrimTask::start() {$/;"	f	class:android::vold::TrimTask
+start	./VolumeManager.cpp	/^int VolumeManager::start() {$/;"	f	class:VolumeManager
+stat_size	./Utils.cpp	/^static int64_t stat_size(struct stat *s) {$/;"	f	namespace:android::vold
+status_name	./Bicr.cpp	/^const char* Bicr::status_name[STATUS_COUNT]  = {$/;"	m	class:Bicr	file:
+status_name	./Bicr.h	/^    static const char *status_name[STATUS_COUNT];$/;"	m	class:Bicr
+stop	./NetlinkHandler.cpp	/^int NetlinkHandler::stop() {$/;"	f	class:NetlinkHandler
+stop	./NetlinkManager.cpp	/^int NetlinkManager::stop() {$/;"	f	class:NetlinkManager
+stop	./VolumeManager.cpp	/^int VolumeManager::stop() {$/;"	f	class:VolumeManager
+tag	./Ext4Crypt.cpp	/^    namespace tag {$/;"	n	namespace:__anon2	file:
+test_mount_encrypted_fs	./cryptfs.c	/^static int test_mount_encrypted_fs(struct crypt_mnt_ftr* crypt_ftr,$/;"	f	file:
+thread	./bench/benchgen.py	/^        thread = int(fn.split(".")[-1])$/;"	v
+time	./bench/benchgen.py	/^            time = float(time)$/;"	v
+time_started	./cryptfs.c	/^    time_t time_started;$/;"	m	struct:encryptGroupsData	file:
+tot_numblocks	./cryptfs.c	/^    off64_t blocks_already_done, tot_numblocks;$/;"	m	struct:encryptGroupsData	file:
+tot_used_blocks	./cryptfs.c	/^    off64_t used_blocks_already_done, tot_used_blocks;$/;"	m	struct:encryptGroupsData	file:
+type	./VolumeManager.h	/^    container_type_t type;$/;"	m	class:ContainerData
+types	./bench/benchgen.py	/^types = defaultdict(int)$/;"	v
+unShareCdRom	./Bicr.cpp	/^int Bicr::unShareCdRom() {$/;"	f	class:Bicr
+unix_read	./cryptfs.c	/^static inline int unix_read(int  fd, void*  buff, int  len)$/;"	f	file:
+unix_write	./cryptfs.c	/^static inline int unix_write(int  fd, const void*  buff, int  len)$/;"	f	file:
+unmount	./VolumeBase.cpp	/^status_t VolumeBase::unmount() {$/;"	f	class:android::vold::VolumeBase
+unmountAll	./Disk.cpp	/^status_t Disk::unmountAll() {$/;"	f	class:android::vold::Disk
+unmountAll	./VolumeManager.cpp	/^int VolumeManager::unmountAll() {$/;"	f	class:VolumeManager
+unmountAsec	./VolumeManager.cpp	/^int VolumeManager::unmountAsec(const char *id, bool force) {$/;"	f	class:VolumeManager
+unmountLoopImage	./VolumeManager.cpp	/^int VolumeManager::unmountLoopImage(const char *id, const char *idHash,$/;"	f	class:VolumeManager
+unmountObb	./VolumeManager.cpp	/^int VolumeManager::unmountObb(const char *fileName, bool force) {$/;"	f	class:VolumeManager
+unmount_tree	./VolumeManager.cpp	/^static int unmount_tree(const char* path) {$/;"	f	file:
+unshare	./VolumeBase.cpp	/^status_t VolumeBase::unshare() {$/;"	f	class:android::vold::VolumeBase
+unshareVolume	./VolumeManager.cpp	/^int VolumeManager::unshareVolume(const std::string& id, const char *method) {$/;"	f	class:VolumeManager
+update_progress	./cryptfs.c	/^static void update_progress(struct encryptGroupsData* data, int is_used)$/;"	f	file:
+upgrade_crypt_ftr	./cryptfs.c	/^static void upgrade_crypt_ftr(int fd, struct crypt_mnt_ftr *crypt_ftr, off64_t offset)$/;"	f	file:
+usage	./vdc.c	/^static void usage(char *progname) {$/;"	f	file:
+used_blocks_already_done	./cryptfs.c	/^    off64_t used_blocks_already_done, tot_used_blocks;$/;"	m	struct:encryptGroupsData	file:
+val	./cryptfs.h	/^  char val[PROPERTY_VALUE_MAX];$/;"	m	struct:crypt_persist_entry
+validate_persistent_data_storage	./cryptfs.c	/^static int validate_persistent_data_storage(struct crypt_mnt_ftr *crypt_ftr)$/;"	f	file:
+ver	./Asec.h	/^    unsigned char ver;$/;"	m	struct:asec_superblock
+vfat	./fs/Vfat.cpp	/^namespace vfat {$/;"	n	namespace:android::vold	file:
+vfat	./fs/Vfat.h	/^namespace vfat {$/;"	n	namespace:android::vold
+vold	./Benchmark.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./Benchmark.h	/^namespace vold {$/;"	n	namespace:android
+vold	./BenchmarkGen.h	/^namespace vold {$/;"	n	namespace:android
+vold	./Disk.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./Disk.h	/^namespace vold {$/;"	n	namespace:android
+vold	./EmulatedVolume.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./EmulatedVolume.h	/^namespace vold {$/;"	n	namespace:android
+vold	./MoveTask.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./MoveTask.h	/^namespace vold {$/;"	n	namespace:android
+vold	./PrivateVolume.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./PrivateVolume.h	/^namespace vold {$/;"	n	namespace:android
+vold	./PublicVolume.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./PublicVolume.h	/^namespace vold {$/;"	n	namespace:android
+vold	./TrimTask.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./TrimTask.h	/^namespace vold {$/;"	n	namespace:android
+vold	./Utils.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./Utils.h	/^namespace vold {$/;"	n	namespace:android
+vold	./VolumeBase.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./VolumeBase.h	/^namespace vold {$/;"	n	namespace:android
+vold	./fs/Exfat.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./fs/Exfat.h	/^namespace vold {$/;"	n	namespace:android
+vold	./fs/Ext4.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./fs/Ext4.h	/^namespace vold {$/;"	n	namespace:android
+vold	./fs/F2fs.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./fs/F2fs.h	/^namespace vold {$/;"	n	namespace:android
+vold	./fs/Ntfs.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./fs/Ntfs.h	/^namespace vold {$/;"	n	namespace:android
+vold	./fs/Vfat.cpp	/^namespace vold {$/;"	n	namespace:android	file:
+vold	./fs/Vfat.h	/^namespace vold {$/;"	n	namespace:android
+vold_cflags	./Android.mk	/^vold_cflags := -Werror -Wall -Wno-missing-field-initializers -Wno-unused-variable -Wno-unused-parameter$/;"	m
+vold_conlyflags	./Android.mk	/^vold_conlyflags := -std=c11$/;"	m
+vold_killProcessesWithOpenFiles	./Process.cpp	/^extern "C" void vold_killProcessesWithOpenFiles(const char *path, int signal) {$/;"	f
+vold_unmountAll	./VolumeManager.cpp	/^extern "C" int vold_unmountAll(void) {$/;"	f
+waitForDevMapper	./VolumeManager.cpp	/^static void waitForDevMapper(const char *dmDevice) {$/;"	f	file:
+wait_and_unmount	./cryptfs.c	/^int wait_and_unmount(const char *mountpoint, bool kill)$/;"	f
+writeSuperBlock	./VolumeManager.cpp	/^static int writeSuperBlock(const char* name, struct asec_superblock *sb, unsigned int numImgSectors) {$/;"	f	file:
+~AsecCmd	./CommandListener.h	/^        virtual ~AsecCmd() {}$/;"	f	class:CommandListener::AsecCmd
+~Bicr	./Bicr.h	/^    virtual ~Bicr(){};$/;"	f	class:Bicr
+~CDROMCmd	./CommandListener.h	/^        virtual ~CDROMCmd() {}$/;"	f	class:CommandListener::CDROMCmd
+~CommandListener	./CommandListener.h	/^    virtual ~CommandListener() {}$/;"	f	class:CommandListener
+~ContainerData	./VolumeManager.h	/^    ~ContainerData() {$/;"	f	class:ContainerData
+~CryptCommandListener	./CryptCommandListener.h	/^    virtual ~CryptCommandListener() {}$/;"	f	class:CryptCommandListener
+~CryptfsCmd	./CryptCommandListener.h	/^        virtual ~CryptfsCmd() {}$/;"	f	class:CryptCommandListener::CryptfsCmd
+~Disk	./Disk.cpp	/^Disk::~Disk() {$/;"	f	class:android::vold::Disk
+~DumpCmd	./CommandListener.h	/^        virtual ~DumpCmd() {}$/;"	f	class:CommandListener::DumpCmd
+~EmulatedVolume	./EmulatedVolume.cpp	/^EmulatedVolume::~EmulatedVolume() {$/;"	f	class:android::vold::EmulatedVolume
+~FstrimCmd	./CommandListener.h	/^        virtual ~FstrimCmd() {}$/;"	f	class:CommandListener::FstrimCmd
+~MoveTask	./MoveTask.cpp	/^MoveTask::~MoveTask() {$/;"	f	class:android::vold::MoveTask
+~NetlinkHandler	./NetlinkHandler.cpp	/^NetlinkHandler::~NetlinkHandler() {$/;"	f	class:NetlinkHandler
+~NetlinkManager	./NetlinkManager.cpp	/^NetlinkManager::~NetlinkManager() {$/;"	f	class:NetlinkManager
+~ObbCmd	./CommandListener.h	/^        virtual ~ObbCmd() {}$/;"	f	class:CommandListener::ObbCmd
+~PrivateVolume	./PrivateVolume.cpp	/^PrivateVolume::~PrivateVolume() {$/;"	f	class:android::vold::PrivateVolume
+~PublicVolume	./PublicVolume.cpp	/^PublicVolume::~PublicVolume() {$/;"	f	class:android::vold::PublicVolume
+~StorageCmd	./CommandListener.h	/^        virtual ~StorageCmd() {}$/;"	f	class:CommandListener::StorageCmd
+~TrimTask	./TrimTask.cpp	/^TrimTask::~TrimTask() {$/;"	f	class:android::vold::TrimTask
+~USBCmd	./CommandListener.h	/^        virtual ~USBCmd() {}$/;"	f	class:CommandListener::USBCmd
+~VoldCommand	./VoldCommand.h	/^    virtual ~VoldCommand() {}$/;"	f	class:VoldCommand
+~VolumeBase	./VolumeBase.cpp	/^VolumeBase::~VolumeBase() {$/;"	f	class:android::vold::VolumeBase
+~VolumeCmd	./CommandListener.h	/^        virtual ~VolumeCmd() {}$/;"	f	class:CommandListener::VolumeCmd
+~VolumeManager	./VolumeManager.cpp	/^VolumeManager::~VolumeManager() {$/;"	f	class:VolumeManager
